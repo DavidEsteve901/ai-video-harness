@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vídeos: planificación, ganchos y retención"
+  short_description: "Planifica Reels, TikTok, Shorts y YouTube con fuentes"
+  default_prompt: "Usa $video-planificacion-retencion para convertir esta idea y estos recursos en un plan de vídeo adaptado al formato."

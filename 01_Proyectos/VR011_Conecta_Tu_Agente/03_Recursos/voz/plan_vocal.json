@@ -1,0 +1,110 @@
+{
+    "nombre":  "VR011 Conecta tu agente (v2 con ejemplos)",
+    "personajes":  {
+                       "Narrador":  {
+                                        "voz":  "tutorial_el"
+                                    }
+                   },
+    "tomas":  [
+                  {
+                      "id":  "v1",
+                      "personaje":  "Narrador",
+                      "texto":  "¿Y si el agente que ya usas pudiera actuar dentro de Workspace Launcher?",
+                      "emocion":  "asombro",
+                      "intencion":  "curiosidad suave",
+                      "intensidad":  0.3,
+                      "ritmo":  1.05,
+                      "pausa_ms":  250
+                  },
+                  {
+                      "id":  "v2",
+                      "personaje":  "Narrador",
+                      "texto":  "Lo conectas una vez.",
+                      "emocion":  "calma",
+                      "intencion":  "sencillez",
+                      "intensidad":  0.3,
+                      "ritmo":  1.05,
+                      "pausa_ms":  250
+                  },
+                  {
+                      "id":  "v3",
+                      "personaje":  "Narrador",
+                      "texto":  "Y le hablas como a una persona.",
+                      "emocion":  "calma",
+                      "intencion":  "cercania",
+                      "intensidad":  0.3,
+                      "ritmo":  1.05,
+                      "pausa_ms":  300
+                  },
+                  {
+                      "id":  "v4",
+                      "personaje":  "Narrador",
+                      "texto":  "Pídele un espacio para estudiar, con tus apuntes, el navegador y la terminal.",
+                      "emocion":  "neutral",
+                      "intencion":  "claridad",
+                      "intensidad":  0.3,
+                      "ritmo":  1.05,
+                      "pausa_ms":  300
+                  },
+                  {
+                      "id":  "v5",
+                      "personaje":  "Narrador",
+                      "texto":  "Y él lo prepara, cada cosa en su sitio.",
+                      "emocion":  "alegria",
+                      "intencion":  "satisfaccion tranquila",
+                      "intensidad":  0.3,
+                      "ritmo":  1.05,
+                      "pausa_ms":  350
+                  },
+                  {
+                      "id":  "v6",
+                      "personaje":  "Narrador",
+                      "texto":  "Pídele un atajo de teclado para lanzarlo.",
+                      "emocion":  "neutral",
+                      "intencion":  "agilidad",
+                      "intensidad":  0.3,
+                      "ritmo":  1.08,
+                      "pausa_ms":  250
+                  },
+                  {
+                      "id":  "v7",
+                      "personaje":  "Narrador",
+                      "texto":  "O que ajuste la aplicación a tu manera.",
+                      "emocion":  "neutral",
+                      "intencion":  "ligereza",
+                      "intensidad":  0.3,
+                      "ritmo":  1.05,
+                      "pausa_ms":  350
+                  },
+                  {
+                      "id":  "v8",
+                      "personaje":  "Narrador",
+                      "texto":  "Él propone. Tú revisas y decides.",
+                      "emocion":  "serio",
+                      "intencion":  "confianza",
+                      "intensidad":  0.3,
+                      "ritmo":  1.0,
+                      "pausa_ms":  350
+                  },
+                  {
+                      "id":  "v9",
+                      "personaje":  "Narrador",
+                      "texto":  "Tu agente, conectado a tu forma de trabajar.",
+                      "emocion":  "calma",
+                      "intencion":  "calidez",
+                      "intensidad":  0.3,
+                      "ritmo":  1.0,
+                      "pausa_ms":  350
+                  },
+                  {
+                      "id":  "v10",
+                      "personaje":  "Narrador",
+                      "texto":  "¿Qué le pedirías primero?",
+                      "emocion":  "alegria",
+                      "intencion":  "curiosidad",
+                      "intensidad":  0.3,
+                      "ritmo":  1.0,
+                      "pausa_ms":  0
+                  }
+              ]
+}

@@ -1,0 +1,18 @@
+{
+  "voz": "es-es-training-9",
+  "modelo": "gemini-3.8-flash-lite-tts",
+  "tomas": [
+    {"id": "t01", "texto": "Tu cabeza tiene demasiadas ventanas abiertas.", "estilo": "intrigante y con aplomo, como quien revela algo"},
+    {"id": "t02", "texto": "Buscas una pestaña. Apuntas. Arrastras. Cambias de escritorio a ciegas.", "estilo": "enumerando con ritmo, algo agobiado"},
+    {"id": "t03", "texto": "Y cuando por fin la encuentras... ¿qué ibas a hacer?", "estilo": "con una pausa, y luego desconcierto cómplice"},
+    {"id": "t04", "texto": "Cada búsqueda es una pequeña decisión. Y cien pequeñas decisiones te vacían la cabeza.", "estilo": "reflexivo, con peso"},
+    {"id": "t05", "texto": "¿Y si tu mano supiera llegar sola?", "estilo": "ilusionado, bajando el ritmo, planteando una gran idea"},
+    {"id": "t06", "texto": "Tu cerebro recuerda lugares mejor que listas. Así que dale un mapa.", "estilo": "seguro y didáctico"},
+    {"id": "t07", "texto": "Un escritorio para cada cosa. El pulgar avanza... el pulgar vuelve.", "estilo": "ágil y con ritmo, juguetón"},
+    {"id": "t08", "texto": "Pones el puntero sobre una zona, un toque de pulgar, y sus ventanas rotan. Sin clic.", "estilo": "satisfecho y claro"},
+    {"id": "t09", "texto": "Y las pestañas cambian igual: sin apuntar a ninguna.", "estilo": "ligero y simpático"},
+    {"id": "t10", "texto": "Dejas de pensar dónde está todo. Y empiezas a pensar en lo que haces.", "estilo": "cálido y convencido"},
+    {"id": "t11", "texto": "Eso es entrar en flujo.", "estilo": "pausado, con intención"},
+    {"id": "t12", "texto": "Ahora tu cabeza tiene una sola ventana abierta: la que importa.", "estilo": "cálido y pausado, cerrando con una sonrisa"}
+  ]
+}

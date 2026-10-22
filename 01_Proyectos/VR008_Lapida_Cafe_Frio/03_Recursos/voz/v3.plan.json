@@ -1,0 +1,212 @@
+{
+  "version": 1,
+  "estado": "generado_pendiente_escucha",
+  "identidades": {
+    "vr008_narrador": {
+      "voz": "vr008_narrador",
+      "voice_id": "vb-vr008-narrador-documental-6ffc3c"
+    }
+  },
+  "canal_direccion": "No aplicado por Qwen Base",
+  "revision_interpretacion": "pendiente_escucha",
+  "limite_motor": "La misma referencia no garantiza identidad perceptiva idéntica ni emoción exacta. CosyVoice recibe instrucciones por frase; Qwen Base no las aplica. Revisar timbre, pronunciación e interpretación antes del montaje.",
+  "tomas": [
+    {
+      "id": "0001",
+      "n": 1,
+      "personaje": "vr008_narrador",
+      "voz": "vr008_narrador",
+      "voice_id": "vb-vr008-narrador-documental-6ffc3c",
+      "texto": "Esta será la lápida de Lucas. Y si nada cambia.",
+      "idioma": "es",
+      "emocion": "neutral",
+      "intencion": "",
+      "intensidad": 0.5,
+      "direccion": "",
+      "ritmo": 1.0,
+      "pausa_ms": 250,
+      "style": "",
+      "semilla_sintesis": 5
+    },
+    {
+      "id": "0002",
+      "n": 2,
+      "personaje": "vr008_narrador",
+      "voz": "vr008_narrador",
+      "voice_id": "vb-vr008-narrador-documental-6ffc3c",
+      "texto": "Lunes, nueve en punto. Abre el editor, la terminal, el navegador. Y cuando por fin empieza a trabajar... el café ya está frío.",
+      "idioma": "es",
+      "emocion": "neutral",
+      "intencion": "",
+      "intensidad": 0.5,
+      "direccion": "",
+      "ritmo": 1.0,
+      "pausa_ms": 250,
+      "style": "",
+      "semilla_sintesis": 6
+    },
+    {
+      "id": "0003",
+      "n": 3,
+      "personaje": "vr008_narrador",
+      "voz": "vr008_narrador",
+      "voice_id": "vb-vr008-narrador-documental-6ffc3c",
+      "texto": "Mañana, lo mismo. Catorce mil seiscientas veces.",
+      "idioma": "es",
+      "emocion": "neutral",
+      "intencion": "",
+      "intensidad": 0.5,
+      "direccion": "",
+      "ritmo": 1.0,
+      "pausa_ms": 250,
+      "style": "",
+      "semilla_sintesis": 7
+    },
+    {
+      "id": "0004",
+      "n": 4,
+      "personaje": "vr008_narrador",
+      "voz": "vr008_narrador",
+      "voice_id": "vb-vr008-narrador-documental-6ffc3c",
+      "texto": "Hasta que Sofía se sienta a su lado. Un botón.",
+      "idioma": "es",
+      "emocion": "neutral",
+      "intencion": "",
+      "intensidad": 0.5,
+      "direccion": "",
+      "ritmo": 1.0,
+      "pausa_ms": 250,
+      "style": "",
+      "semilla_sintesis": 8
+    },
+    {
+      "id": "0005",
+      "n": 5,
+      "personaje": "vr008_narrador",
+      "voz": "vr008_narrador",
+      "voice_id": "vb-vr008-narrador-documental-6ffc3c",
+      "texto": "Tres segundos.",
+      "idioma": "es",
+      "emocion": "neutral",
+      "intencion": "",
+      "intensidad": 0.5,
+      "direccion": "",
+      "ritmo": 1.0,
+      "pausa_ms": 250,
+      "style": "",
+      "semilla_sintesis": 9
+    },
+    {
+      "id": "0006",
+      "n": 6,
+      "personaje": "vr008_narrador",
+      "voz": "vr008_narrador",
+      "voice_id": "vb-vr008-narrador-documental-6ffc3c",
+      "texto": "Esta es la lápida de Lucas. Ahora.",
+      "idioma": "es",
+      "emocion": "neutral",
+      "intencion": "",
+      "intensidad": 0.5,
+      "direccion": "",
+      "ritmo": 1.0,
+      "pausa_ms": 250,
+      "style": "",
+      "semilla_sintesis": 10
+    }
+  ],
+  "project": {
+    "name": "locutor",
+    "engine": "qwen-base-1.7b",
+    "mode": "segments",
+    "voices": {
+      "vr008_narrador": "vb-vr008-narrador-documental-6ffc3c"
+    },
+    "settings": {
+      "seed": 5,
+      "max_tokens": 4096,
+      "speed": 1.0
+    },
+    "segments": [
+      {
+        "id": "0001",
+        "speaker": "vr008_narrador",
+        "language": "es",
+        "text": "Esta será la lápida de Lucas. Y si nada cambia.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "neutral",
+        "emotion_intensity": 0.5,
+        "intention": ""
+      },
+      {
+        "id": "0002",
+        "speaker": "vr008_narrador",
+        "language": "es",
+        "text": "Lunes, nueve en punto. Abre el editor, la terminal, el navegador. Y cuando por fin empieza a trabajar... el café ya está frío.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "neutral",
+        "emotion_intensity": 0.5,
+        "intention": ""
+      },
+      {
+        "id": "0003",
+        "speaker": "vr008_narrador",
+        "language": "es",
+        "text": "Mañana, lo mismo. Catorce mil seiscientas veces.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "neutral",
+        "emotion_intensity": 0.5,
+        "intention": ""
+      },
+      {
+        "id": "0004",
+        "speaker": "vr008_narrador",
+        "language": "es",
+        "text": "Hasta que Sofía se sienta a su lado. Un botón.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "neutral",
+        "emotion_intensity": 0.5,
+        "intention": ""
+      },
+      {
+        "id": "0005",
+        "speaker": "vr008_narrador",
+        "language": "es",
+        "text": "Tres segundos.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "neutral",
+        "emotion_intensity": 0.5,
+        "intention": ""
+      },
+      {
+        "id": "0006",
+        "speaker": "vr008_narrador",
+        "language": "es",
+        "text": "Esta es la lápida de Lucas. Ahora.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "neutral",
+        "emotion_intensity": 0.5,
+        "intention": ""
+      }
+    ]
+  },
+  "parametros": {
+    "seed": 5,
+    "velocidad": 1.0,
+    "acelerar": 1.0,
+    "fx": null,
+    "engine": "qwen-base-1.7b"
+  },
+  "job": "810b7ab40d73421a89129b9ed666b494"
+}

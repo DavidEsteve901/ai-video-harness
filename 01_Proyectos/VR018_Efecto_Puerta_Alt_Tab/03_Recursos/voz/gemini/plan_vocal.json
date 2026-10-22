@@ -1,0 +1,41 @@
+{
+  "voz": "es-es-training-9",
+  "modelo": "gemini-3.8-flash-tts",
+  "tomas": [
+    {
+      "id": "t01",
+      "texto": "¿Por qué al cruzar una puerta se te olvida a qué ibas?",
+      "estilo": "intrigante y cómplice, planteando un misterio que nos pasa a todos; ritmo ágil de vídeo corto"
+    },
+    {
+      "id": "t02",
+      "texto": "Se llama efecto puerta: tu cerebro cierra la escena y la archiva.",
+      "estilo": "revelando un dato curioso con seguridad, rápido y claro"
+    },
+    {
+      "id": "t03",
+      "texto": "En el ordenador pasa igual: cada ventana que cambias es una puerta.",
+      "estilo": "giro inesperado, con picardía, como quien cae en la cuenta; ritmo ágil"
+    },
+    {
+      "id": "t04",
+      "texto": "Correo, pestañas, carpetas… y por el camino, pierdes el hilo.",
+      "estilo": "enumerando rápido, algo agobiado, y bajando al final con resignación"
+    },
+    {
+      "id": "t05",
+      "texto": "¿Y si cada tarea tuviera su propia habitación?",
+      "estilo": "ilusionado, bajando el ritmo, planteando una gran idea"
+    },
+    {
+      "id": "t06",
+      "texto": "Entras, y ya está todo abierto y en su sitio.",
+      "estilo": "seguro y satisfecho, con complicidad"
+    },
+    {
+      "id": "t07",
+      "texto": "Y ya no se te olvida a qué venías.",
+      "estilo": "cálido, cerrando con una sonrisa"
+    }
+  ]
+}

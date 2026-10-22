@@ -1,0 +1,24 @@
+{
+  "name": "vr006-vr007-asistente-cuentaatras",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VR006 (asistente de voz) y VR007 (cuenta atrás de lanzamiento) - Remotion 1080x1920 60fps",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render:vr006": "remotion render src/index.ts VR006-Asistente out/VR006_Asistente_1080x1920_60fps.mp4 --crf=16 --pixel-format=yuv420p",
+    "render:vr007": "remotion render src/index.ts VR007-CuentaAtras out/VR007_CuentaAtras_1080x1920_60fps.mp4 --crf=16 --pixel-format=yuv420p",
+    "render": "npm run render:vr006 && npm run render:vr007"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/fonts": "4.0.448",
+    "@remotion/media": "4.0.448",
+    "remotion": "4.0.448",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

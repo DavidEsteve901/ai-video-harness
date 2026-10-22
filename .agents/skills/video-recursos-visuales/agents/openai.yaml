@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recursos visuales para vídeo"
+  short_description: "Busca y elige imágenes, GIFs y clips para tus vídeos"
+  default_prompt: "Usa $video-recursos-visuales para buscar y seleccionar material de internet que encaje con las escenas de este vídeo, y prepara los elegidos para el montaje."

@@ -1,0 +1,31 @@
+{
+  "_comentario": "VR010 «Cierro todo y vuelve». Tiempos de salida en segundos. Cortes sobre el tutorial T01_Tutorial_ES_1440p.mp4. Tras cambiar cortes: node scripts/preparar_assets.mjs --src <T01_Tutorial_ES_1440p.mp4> --sfx <Biblioteca_Sonidos/sfx_propios>",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration": 14.9,
+  "cuts": [
+    { "from": 181.0, "to": 183.4, "speed": 1, "nota": "gancho: el escritorio ya montado" },
+    { "from": 164.6, "to": 167.6, "speed": 1.25, "nota": "limpiar el entorno: diálogo y cierre" },
+    { "from": 168.6, "to": 170.6, "speed": 2, "nota": "panel vacío y clic en Lanzar (~170.0 origen)" },
+    { "from": 171.4, "to": 174.6, "speed": 2, "nota": "pantalla de lanzamiento con la barra de progreso" },
+    { "from": 174.6, "to": 179.4, "speed": 1.25, "nota": "se abren editor, terminal, navegador y la página carga" },
+    { "from": 179.4, "to": 182.8, "speed": 1, "nota": "resultado, aguanta" }
+  ],
+  "t": { "hook": 0, "close": 2.4, "click": 5.5, "launch": 5.8, "win1": 7.4, "win2": 7.7, "win3": 8.1, "page": 10.7, "result": 11.25 },
+  "camera": [
+    { "t": 0.0, "cx": 800, "cy": 720, "s": 0.8, "H": 1080 },
+    { "t": 2.35, "cx": 1800, "cy": 720, "s": 0.8, "H": 1080 },
+    { "t": 2.4, "cx": 1280, "cy": 720, "s": 0.95, "H": 1080 },
+    { "t": 4.75, "cx": 1280, "cy": 720, "s": 0.95, "H": 1080 },
+    { "t": 4.8, "cx": 1750, "cy": 520, "s": 1.05, "H": 1080 },
+    { "t": 5.75, "cx": 1750, "cy": 520, "s": 1.05, "H": 1080 },
+    { "t": 5.8, "cx": 1280, "cy": 720, "s": 0.95, "H": 1080 },
+    { "t": 7.35, "cx": 1280, "cy": 720, "s": 0.95, "H": 1080 },
+    { "t": 7.4, "cx": 900, "cy": 700, "s": 0.85, "H": 1080 },
+    { "t": 8.6, "cx": 1500, "cy": 700, "s": 0.85, "H": 1080 },
+    { "t": 10.6, "cx": 1920, "cy": 1000, "s": 0.95, "H": 1080 },
+    { "t": 11.25, "cx": 1920, "cy": 1000, "s": 0.95, "H": 1080 },
+    { "t": 12.25, "cx": 1280, "cy": 720, "s": 0.4219, "H": 608 }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_comentario": "VR011 Conecta tu agente (IDEA-041). Tiempos en segundos, medidos sobre 03_Recursos/voz/locucion.json. Cambia 't' para retocar el ritmo de cada escena sin tocar el codigo.",
+  "fps": 30,
+  "duration": 31.6,
+  "agenteElegido": "claude",
+  "captions": true,
+  "vo": [
+    { "id": "v1", "at": 0.0,    "dur": 3.96, "text": "¿Y si el agente que ya usas pudiera actuar dentro de Workspace Launcher?" },
+    { "id": "v2", "at": 4.211,  "dur": 1.03, "text": "Lo conectas una vez." },
+    { "id": "v3", "at": 5.492,  "dur": 1.70, "text": "Y le hablas como a una persona." },
+    { "id": "v4", "at": 7.495,  "dur": 4.91, "text": "Pídele un espacio para estudiar, con tus apuntes, el navegador y la terminal." },
+    { "id": "v5", "at": 12.705, "dur": 3.21, "text": "Y él lo prepara, cada cosa en su sitio." },
+    { "id": "v6", "at": 16.268, "dur": 2.33, "text": "Pídele un atajo de teclado para lanzarlo." },
+    { "id": "v7", "at": 18.844, "dur": 2.18, "text": "O que ajuste la aplicación a tu manera." },
+    { "id": "v8", "at": 21.369, "dur": 2.68, "text": "Él propone. Tú revisas y decides." },
+    { "id": "v9", "at": 24.402, "dur": 2.54, "text": "Tu agente, conectado a tu forma de trabajar." },
+    { "id": "v10","at": 27.292, "dur": 1.87, "text": "¿Qué le pedirías primero?" }
+  ],
+  "t": {
+    "persona": 0.15, "wl": 0.55, "chips": 1.1, "interroga": 2.4,
+    "elige": 4.25, "cableWl": 4.55, "conectado": 5.05,
+    "habla": 5.5, "cablePersona": 5.7,
+    "ej1": 7.6, "apuntes": 10.0, "navegador": 10.95, "terminal": 11.8, "envia": 12.15,
+    "piensa": 12.75, "tile1": 13.2, "tile2": 13.8, "tile3": 14.4, "listo": 15.2,
+    "ej2": 16.3, "tecla1": 17.0, "tecla2": 17.3, "tecla3": 17.6, "pulsa": 18.0,
+    "ej3": 18.9, "ajusta": 19.6,
+    "propone": 21.45, "revisa": 22.4, "decide": 23.3,
+    "forma": 24.5, "pregunta": 27.3
+  }
+}

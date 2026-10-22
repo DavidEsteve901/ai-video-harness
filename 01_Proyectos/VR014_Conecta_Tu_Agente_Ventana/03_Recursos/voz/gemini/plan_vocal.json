@@ -1,0 +1,18 @@
+{
+  "voz": "es-es-training-9",
+  "modelo": "gemini-3.8-flash-lite-tts",
+  "tomas": [
+    {"id": "t01", "texto": "Tu agente de IA vive encerrado en una ventana.", "estilo": "intrigante y con aplomo, como quien revela algo"},
+    {"id": "t02", "texto": "Conoce tu proyecto por dentro: cada carpeta, cada script.", "estilo": "admirado, enumerando con ritmo"},
+    {"id": "t03", "texto": "Pero el escritorio lo sigues montando tú: abrir, colocar, recordar comandos.", "estilo": "ironía cómplice, algo cansado al enumerar"},
+    {"id": "t04", "texto": "Y lo mejor de tu proyecto se queda enterrado en una terminal.", "estilo": "con pena contenida, bajando el tono al final"},
+    {"id": "t05", "texto": "¿Y si le abrieras la ventana?", "estilo": "ilusionado, bajando el ritmo, planteando una gran idea"},
+    {"id": "t06", "texto": "Claude, Codex, Cursor, Antigravity, Copilot... el que ya uses, lo conectas una vez.", "estilo": "ágil, nombrando cada uno con energía; después cercano y sencillo"},
+    {"id": "t07", "texto": "Entiende en qué trabajas y te monta el entorno: espacios, ventanas, atajos, ajustes.", "estilo": "seguro y con ritmo, enumerando al final"},
+    {"id": "t08", "texto": "Y desentierra lo mejor de tu proyecto: lleva sus funciones a tu Omnibar.", "estilo": "con chispa, como quien enseña un truco"},
+    {"id": "t09", "texto": "Pulsas tu atajo, eliges una función... y tu proyecto hace el trabajo. Desde cualquier app.", "estilo": "satisfecho y claro"},
+    {"id": "t10", "texto": "Él propone. Tú revisas y decides.", "estilo": "tranquilo y firme"},
+    {"id": "t11", "texto": "Tu agente ya no vive en una ventana.", "estilo": "pausado, con intención"},
+    {"id": "t12", "texto": "Ahora prepara tu forma de trabajar.", "estilo": "cálido, cerrando con una sonrisa"}
+  ]
+}

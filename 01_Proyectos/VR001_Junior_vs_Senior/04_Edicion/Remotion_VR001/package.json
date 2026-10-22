@@ -1,0 +1,27 @@
+{
+  "name": "vr001-junior-vs-senior",
+  "version": "3.1.0",
+  "private": true,
+  "description": "VR001 Junior vs Senior / Noob vs Pro (V3: Sync y Suave) - Remotion, 1080x1920 60fps",
+  "scripts": {
+    "cortes": "node scripts/preparar_cortes.mjs",
+    "dev": "remotion studio src/index.ts",
+    "render:noob-sync": "remotion render src/index.ts VR001-NoobPro-Sync out/VR001_Noob_vs_Pro_V3_SYNC_1080x1920_60fps.mp4 --crf=14 --pixel-format=yuv420p",
+    "render:noob-suave": "remotion render src/index.ts VR001-NoobPro-Suave out/VR001_Noob_vs_Pro_V3_SUAVE_1080x1920_60fps.mp4 --crf=14 --pixel-format=yuv420p",
+    "render:junior-sync": "remotion render src/index.ts VR001-JuniorSenior-Sync out/VR001_Junior_vs_Senior_V3_SYNC_1080x1920_60fps.mp4 --crf=14 --pixel-format=yuv420p",
+    "render:junior-suave": "remotion render src/index.ts VR001-JuniorSenior-Suave out/VR001_Junior_vs_Senior_V3_SUAVE_1080x1920_60fps.mp4 --crf=14 --pixel-format=yuv420p",
+    "render": "npm run render:noob-sync && npm run render:noob-suave && npm run render:junior-sync && npm run render:junior-suave"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/fonts": "4.0.448",
+    "@remotion/media": "4.0.448",
+    "remotion": "4.0.448",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

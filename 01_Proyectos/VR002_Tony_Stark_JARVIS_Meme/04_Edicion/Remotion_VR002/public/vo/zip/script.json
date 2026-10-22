@@ -1,0 +1,90 @@
+{
+  "name": "VR002 Tony Stark - locución V3 (emotiva, bilingüe)",
+  "engine": "qwen-base-1.7b",
+  "mode": "segments",
+  "voices": {
+    "Voz": "voz-emotiva-bilingue-8cd57d"
+  },
+  "settings": {
+    "seed": 11,
+    "guidance": 1.3,
+    "steps": 10,
+    "speed": 1.0,
+    "fit_duration": false,
+    "max_tokens": 2048,
+    "timing_policy": "natural",
+    "max_fit_speed": 1.35
+  },
+  "segments": [
+    {
+      "id": "0001",
+      "speaker": "Voz",
+      "text": "Tranquilo, Tony…",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0002",
+      "speaker": "Voz",
+      "text": "Solo… dos palmadas.",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0003",
+      "speaker": "Voz",
+      "text": "¿¡Ves!? ¡Se abre todo solo!",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0004",
+      "speaker": "Voz",
+      "text": "Sin teclado… sin ratón…",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0005",
+      "speaker": "Voz",
+      "text": "Otras dos palmadas… ¡y fuera!",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0006",
+      "speaker": "Voz",
+      "text": "¡Que se entere…",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0007",
+      "speaker": "Voz",
+      "text": "JARVIS!",
+      "language": "en",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    }
+  ]
+}

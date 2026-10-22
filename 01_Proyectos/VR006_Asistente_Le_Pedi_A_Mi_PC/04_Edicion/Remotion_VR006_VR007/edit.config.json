@@ -1,0 +1,41 @@
+{
+  "_comentario": "Dos vídeos en un proyecto. Tiempos en segundos. Tras cambiar cortes o voz: node scripts/preparar_assets.mjs",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+
+  "asistente": {
+    "duration": 17.2,
+    "src": "Video Asistente 2.mp4",
+    "cuts": [
+      { "from": 11.5, "to": 17.5, "speed": 1.5, "nota": "sale la tarjeta del asistente pensando y se abre el navegador" },
+      { "from": 17.5, "to": 34.5, "speed": 3, "nota": "se abren YouTube y el artículo" },
+      { "from": 41.0, "to": 56.5, "speed": 2.5, "nota": "organiza las 4 ventanas y dice «Listo, organicé tus cuatro ventanas»" }
+    ],
+    "cardCrop": { "x": 980, "y": 980, "w": 600, "h": 400, "nota": "la tarjeta del asistente en el bruto (2560x1440)" },
+    "t": { "think": 0.33, "browser": 4.17, "article": 9.5, "organize": 10.9, "done": 14.1 },
+    "vo": [
+      { "file": "a1.wav", "at": 0.25, "text": "Le dije a mi PC lo que quería…" },
+      { "file": "a2.wav", "at": 4.6, "text": "…y se puso a trabajar él solo." },
+      { "file": "a3.wav", "at": 10.2, "text": "Cuatro ventanas. Una orden." },
+      { "file": "a4.wav", "at": 14.4, "text": "Hablarle ya es lo normal." }
+    ]
+  },
+
+  "cuentaatras": {
+    "duration": 11.6,
+    "rocket": { "from": 3.0, "to": 9.0, "speed": 1 },
+    "senior": {
+      "src": "Video Senior.mp4",
+      "cuts": [
+        { "from": 14.73, "to": 15.21, "speed": 1, "nota": "cursor sobre Lanzar" },
+        { "from": 16.3, "to": 17.95, "speed": 2, "nota": "se salta el parón tras el clic" },
+        { "from": 17.95, "to": 22.0, "speed": 1, "nota": "todo colocado" }
+      ],
+      "startOut": 5.1
+    },
+    "vo": [
+      { "file": "b1.wav", "at": 8.6, "text": "Así arranca mi PC." }
+    ]
+  }
+}

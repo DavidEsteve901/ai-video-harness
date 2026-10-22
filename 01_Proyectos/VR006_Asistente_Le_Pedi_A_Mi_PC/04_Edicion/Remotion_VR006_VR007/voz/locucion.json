@@ -1,0 +1,12 @@
+{
+  "name": "VR006-VR007 locucion",
+  "seed": 5,
+  "speed": 1.08,
+  "lines": [
+    { "id": "a1", "lang": "es", "text": "Le dije a mi PC lo que quería…" },
+    { "id": "a2", "lang": "es", "text": "…y se puso a trabajar él solo." },
+    { "id": "a3", "lang": "es", "text": "Cuatro ventanas. Una orden." },
+    { "id": "a4", "lang": "es", "text": "Hablarle ya es lo normal." },
+    { "id": "b1", "lang": "es", "text": "Así arranca mi PC." }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "fps": 60,
+  "voz": {
+    "carpeta_tomas": "<RAIZ_REPO>/01_Proyectos/VR012_Presentacion_Tu_PC_Recuerda/03_Recursos/voz/gemini/tomas",
+    "entrada_s": 0.55,
+    "cola_final_s": 2.4,
+    "tomas": [
+      {
+        "id": "t01",
+        "toma": "A",
+        "pausa_tras": 1.05
+      },
+      {
+        "id": "t02",
+        "toma": "A",
+        "pausa_tras": 0.35
+      },
+      {
+        "id": "t03",
+        "toma": "A",
+        "pausa_tras": 0.3
+      },
+      {
+        "id": "t04",
+        "toma": "A",
+        "pausa_tras": 0.75
+      },
+      {
+        "id": "t05",
+        "toma": "A",
+        "pausa_tras": 1.0
+      },
+      {
+        "id": "t06",
+        "toma": "A",
+        "pausa_tras": 0.85
+      },
+      {
+        "id": "t07",
+        "toma": "B",
+        "pausa_tras": 0.5
+      },
+      {
+        "id": "t08",
+        "toma": "A",
+        "pausa_tras": 0.45
+      },
+      {
+        "id": "t09",
+        "toma": "A",
+        "pausa_tras": 0.55
+      },
+      {
+        "id": "t10",
+        "toma": "A",
+        "pausa_tras": 0.6
+      },
+      {
+        "id": "t11",
+        "toma": "A",
+        "pausa_tras": 0
+      }
+    ],
+    "nota": "t10 y t11 con gemini-3.8-flash-lite-tts (cupo diario del flash agotado el 2026-10-21); el usuario las escuchó y no nota diferencia: definitivas"
+  },
+  "voz_en": {
+    "carpeta_tomas": "<RAIZ_REPO>/01_Proyectos/VR012_Presentacion_Tu_PC_Recuerda/03_Recursos/voz/gemini/tomas_en",
+    "plan": "plan_vocal_en.json",
+    "entrada_s": 0.55,
+    "cola_final_s": 2.4,
+    "tomas": [
+      {
+        "id": "t01",
+        "toma": "A",
+        "pausa_tras": 1.05
+      },
+      {
+        "id": "t02",
+        "toma": "A",
+        "pausa_tras": 0.35
+      },
+      {
+        "id": "t03",
+        "toma": "A",
+        "pausa_tras": 0.3
+      },
+      {
+        "id": "t04",
+        "toma": "A",
+        "pausa_tras": 0.75
+      },
+      {
+        "id": "t05",
+        "toma": "A",
+        "pausa_tras": 1.0
+      },
+      {
+        "id": "t06",
+        "toma": "A",
+        "pausa_tras": 0.85
+      },
+      {
+        "id": "t07",
+        "toma": "A",
+        "pausa_tras": 0.5
+      },
+      {
+        "id": "t08",
+        "toma": "A",
+        "pausa_tras": 0.45
+      },
+      {
+        "id": "t09",
+        "toma": "B",
+        "pausa_tras": 0.55
+      },
+      {
+        "id": "t10",
+        "toma": "A",
+        "pausa_tras": 0.6
+      },
+      {
+        "id": "t11",
+        "toma": "A",
+        "pausa_tras": 0
+      }
+    ],
+    "nota": "Voz en-us-training-6 con gemini-3.8-flash-lite-tts (el usuario aprobó flash-lite de oído en la versión española)"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "VR006-VR007 locucion",
+  "engine": "qwen-base-1.7b",
+  "mode": "segments",
+  "voices": {
+    "Voz": "listillo-millonario-es-6404f1"
+  },
+  "settings": {
+    "seed": 5,
+    "guidance": 1.3,
+    "steps": 10,
+    "speed": 1.08,
+    "fit_duration": false,
+    "max_tokens": 2048,
+    "timing_policy": "natural",
+    "max_fit_speed": 1.35
+  },
+  "segments": [
+    {
+      "id": "0001",
+      "speaker": "Voz",
+      "text": "Le dije a mi PC lo que quería…",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0002",
+      "speaker": "Voz",
+      "text": "…y se puso a trabajar él solo.",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0003",
+      "speaker": "Voz",
+      "text": "Cuatro ventanas. Una orden.",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0004",
+      "speaker": "Voz",
+      "text": "Hablarle ya es lo normal.",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    },
+    {
+      "id": "0005",
+      "speaker": "Voz",
+      "text": "Así arranca mi PC.",
+      "language": "es",
+      "start": null,
+      "target_duration": null,
+      "pause_ms": 0.0,
+      "style": ""
+    }
+  ]
+}

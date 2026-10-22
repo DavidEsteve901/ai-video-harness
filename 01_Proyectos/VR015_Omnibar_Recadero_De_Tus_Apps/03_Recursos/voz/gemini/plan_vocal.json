@@ -1,0 +1,19 @@
+{
+  "voz": "es-es-training-9",
+  "modelo": "gemini-3.8-flash-lite-tts",
+  "tomas": [
+    {"id": "t01", "texto": "Llevas años haciendo de recadero de tus apps.", "estilo": "intrigante y cómplice, como quien revela algo que el otro no había visto"},
+    {"id": "t02", "texto": "Copias de aquí. Pegas allí. Buscas en otra pestaña. Abres, colocas, vuelves.", "estilo": "enumerando con ritmo rápido, algo agobiado"},
+    {"id": "t03", "texto": "Y en cada viaje se te escapa un poco de lo que estabas pensando.", "estilo": "reflexivo, más lento, con un punto de pena"},
+    {"id": "t04", "texto": "¿Y si, en vez de ir tú a todo... todo viniera a ti?", "estilo": "ilusionado, bajando el ritmo, planteando una gran idea"},
+    {"id": "t05", "texto": "Pulsas tu atajo, y aparece una barra encima de lo que estés haciendo.", "estilo": "seguro y claro, presentando algo nuevo"},
+    {"id": "t06", "texto": "Ya sabe qué app tienes delante, y la IA te sugiere qué hacer con ella.", "estilo": "sorprendido para bien, con complicidad"},
+    {"id": "t07", "texto": "Abre cualquier app con media palabra... y colócala donde quieras.", "estilo": "ágil y juguetón"},
+    {"id": "t08", "texto": "Pregúntale lo que sea: busca en internet y te lo resume, con sus fuentes.", "estilo": "claro y convencido"},
+    {"id": "t09", "texto": "Marca varias ventanas con Control y clic, y te propone qué hacer con ellas.", "estilo": "didáctico, con interés"},
+    {"id": "t10", "texto": "Por ejemplo: resume esta web y pásalo a tus notas de Notion u Obsidian.", "estilo": "práctico y satisfecho"},
+    {"id": "t11", "texto": "Y con tus propios comandos la conectas con lo que uses: un script, una web, un servicio.", "estilo": "con ritmo, enumerando con energía"},
+    {"id": "t12", "texto": "Todo, sin salir de lo que estás haciendo.", "estilo": "cálido y tranquilo"},
+    {"id": "t13", "texto": "Ya no eres el recadero de tus apps. Ahora trabajan para ti.", "estilo": "cálido, cerrando con una sonrisa"}
+  ]
+}

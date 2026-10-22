@@ -1,0 +1,40 @@
+{
+  "nombre": "Ejemplo de arco vocal con una identidad",
+  "personajes": {
+    "Narrador": {
+      "voz": "doc_naturaleza"
+    }
+  },
+  "tomas": [
+    {
+      "id": "antes",
+      "personaje": "Narrador",
+      "texto": "¿Otra vez todas las ventanas por el medio?",
+      "emocion": "enfado",
+      "intencion": "Reconocer la frustración cotidiana, sin gritar.",
+      "intensidad": 0.25,
+      "ritmo": 1.03,
+      "pausa_ms": 300
+    },
+    {
+      "id": "descubrimiento",
+      "personaje": "Narrador",
+      "texto": "Espera. Ahora se ha colocado todo solo.",
+      "emocion": "asombro",
+      "intencion": "Descubrir el resultado con sorpresa contenida.",
+      "intensidad": 0.45,
+      "ritmo": 1,
+      "pausa_ms": 250
+    },
+    {
+      "id": "remate",
+      "personaje": "Narrador",
+      "texto": "Así sí. Ya puedo empezar.",
+      "emocion": "calma",
+      "intencion": "Transmitir alivio y satisfacción natural.",
+      "intensidad": 0.3,
+      "ritmo": 0.97,
+      "pausa_ms": 0
+    }
+  ]
+}

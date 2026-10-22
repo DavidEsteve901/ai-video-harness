@@ -1,0 +1,23 @@
+{
+  "name": "vr013-flujo-tu-cabeza",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VR013 - «Tu cabeza tiene demasiadas ventanas abiertas»: entrar en flujo (FMT-004, Remotion, vertical + horizontal)",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render:v": "remotion render src/index.ts VR013-Vertical out/VR013_V.mp4 --crf=16 --pixel-format=yuv420p",
+    "render:h": "remotion render src/index.ts VR013-Horizontal out/VR013_H.mp4 --crf=16 --pixel-format=yuv420p"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/fonts": "4.0.448",
+    "@remotion/media": "4.0.448",
+    "remotion": "4.0.448",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

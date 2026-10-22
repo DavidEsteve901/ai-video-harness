@@ -1,0 +1,22 @@
+{
+  "name": "vr010-cierro-todo-y-vuelve",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VR010 - Cierro todo y vuelve (recorte vertical del tutorial) - Remotion 1080x1920 60fps",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts VR010-CierroTodo out/VR010_CierroTodo_1080x1920_60fps.mp4 --crf=16 --pixel-format=yuv420p"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/fonts": "4.0.448",
+    "@remotion/media": "4.0.448",
+    "remotion": "4.0.448",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "estado": "generado_pendiente_escucha",
+  "identidades": {
+    "Dev": {
+      "voz": "dev_harto",
+      "voice_id": "vb-dev-senior-harto-l--56cc8d"
+    }
+  },
+  "canal_direccion": "No aplicado por Qwen Base",
+  "revision_interpretacion": "pendiente_escucha",
+  "limite_motor": "La misma referencia no garantiza identidad perceptiva idéntica ni emoción exacta. CosyVoice recibe instrucciones por frase; Qwen Base no las aplica. Revisar timbre, pronunciación e interpretación antes del montaje.",
+  "tomas": [
+    {
+      "id": "v1",
+      "n": 1,
+      "personaje": "Dev",
+      "voz": "dev_harto",
+      "voice_id": "vb-dev-senior-harto-l--56cc8d",
+      "texto": "Mi PC y yo, trabajando en un proyecto.",
+      "idioma": "es",
+      "emocion": "serio",
+      "intencion": "Presentar el chiste con seriedad de oficina, sin hype.",
+      "intensidad": 0.4,
+      "direccion": "",
+      "ritmo": 1.08,
+      "pausa_ms": 250,
+      "style": "Emoción solicitada: serio; intensidad: 0.4; intención: Presentar el chiste con seriedad de oficina, sin hype.; dirección: ",
+      "semilla_sintesis": 5
+    },
+    {
+      "id": "v2",
+      "n": 2,
+      "personaje": "Dev",
+      "voz": "dev_harto",
+      "voice_id": "vb-dev-senior-harto-l--56cc8d",
+      "texto": "Yo he dicho una frase. Él ha abierto todo.",
+      "idioma": "es",
+      "emocion": "serio",
+      "intencion": "Repartir el trabajo con descaro tranquilo: yo poco, él todo.",
+      "intensidad": 0.4,
+      "direccion": "",
+      "ritmo": 1.08,
+      "pausa_ms": 250,
+      "style": "Emoción solicitada: serio; intensidad: 0.4; intención: Repartir el trabajo con descaro tranquilo: yo poco, él todo.; dirección: ",
+      "semilla_sintesis": 6
+    },
+    {
+      "id": "v3",
+      "n": 3,
+      "personaje": "Dev",
+      "voz": "dev_harto",
+      "voice_id": "vb-dev-senior-harto-l--56cc8d",
+      "texto": "Yo he dicho otra. Él las ha colocado.",
+      "idioma": "es",
+      "emocion": "sarcasmo",
+      "intencion": "Segunda vuelta del mismo reparto, algo más socarrón.",
+      "intensidad": 0.3,
+      "direccion": "",
+      "ritmo": 1.08,
+      "pausa_ms": 250,
+      "style": "Emoción solicitada: sarcasmo; intensidad: 0.3; intención: Segunda vuelta del mismo reparto, algo más socarrón.; dirección: ",
+      "semilla_sintesis": 7
+    },
+    {
+      "id": "v4",
+      "n": 4,
+      "personaje": "Dev",
+      "voz": "dev_harto",
+      "voice_id": "vb-dev-senior-harto-l--56cc8d",
+      "texto": "Hoy he trabajado muchísimo.",
+      "idioma": "es",
+      "emocion": "calma",
+      "intencion": "Remate: orgullo cansado y fingido de quien no ha movido un dedo.",
+      "intensidad": 0.35,
+      "direccion": "",
+      "ritmo": 0.97,
+      "pausa_ms": 0,
+      "style": "Emoción solicitada: calma; intensidad: 0.35; intención: Remate: orgullo cansado y fingido de quien no ha movido un dedo.; dirección: ",
+      "semilla_sintesis": 8
+    }
+  ],
+  "project": {
+    "name": "VR009 Mi PC y yo trabajando",
+    "engine": "qwen-base-1.7b",
+    "mode": "segments",
+    "voices": {
+      "Dev": "vb-dev-senior-harto-l--56cc8d"
+    },
+    "settings": {
+      "seed": 5,
+      "max_tokens": 4096,
+      "speed": 1.0
+    },
+    "segments": [
+      {
+        "id": "v1",
+        "speaker": "Dev",
+        "language": "es",
+        "text": "Mi PC y yo, trabajando en un proyecto.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "serio",
+        "emotion_intensity": 0.4,
+        "intention": "Presentar el chiste con seriedad de oficina, sin hype."
+      },
+      {
+        "id": "v2",
+        "speaker": "Dev",
+        "language": "es",
+        "text": "Yo he dicho una frase. Él ha abierto todo.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "serio",
+        "emotion_intensity": 0.4,
+        "intention": "Repartir el trabajo con descaro tranquilo: yo poco, él todo."
+      },
+      {
+        "id": "v3",
+        "speaker": "Dev",
+        "language": "es",
+        "text": "Yo he dicho otra. Él las ha colocado.",
+        "start": 0,
+        "pause_ms": 250,
+        "style": "",
+        "emotion": "sarcasmo",
+        "emotion_intensity": 0.3,
+        "intention": "Segunda vuelta del mismo reparto, algo más socarrón."
+      },
+      {
+        "id": "v4",
+        "speaker": "Dev",
+        "language": "es",
+        "text": "Hoy he trabajado muchísimo.",
+        "start": 0,
+        "pause_ms": 0,
+        "style": "",
+        "emotion": "calma",
+        "emotion_intensity": 0.35,
+        "intention": "Remate: orgullo cansado y fingido de quien no ha movido un dedo."
+      }
+    ]
+  },
+  "parametros": {
+    "seed": 5,
+    "velocidad": 1.0,
+    "acelerar": 1.0,
+    "fx": null,
+    "engine": "qwen-base-1.7b"
+  },
+  "job": "ec25208757e04bdeb5cf58a35b3a66e6"
+}

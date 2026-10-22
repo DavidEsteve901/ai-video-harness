@@ -1,0 +1,25 @@
+{
+  "_comentario": "Tiempos en segundos del vídeo final. Cambia aquí y mira el resultado con `npm run dev`. Las líneas de voz se miden de los WAV en public/audio/voz_*.wav (ver scripts/preparar_assets.mjs).",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration": 16.9,
+
+  "hook": { "srcStart": 0.6, "end": 1.5, "nota": "Grito de Tony a pantalla completa. Empieza en 0,6 s del clip (fotograma blanco = glitch) para que grite desde el primer fotograma." },
+  "jarvis": { "end": 4.0, "nota": "Foto 'Jarvis,' + alarma + viñeta roja." },
+  "point": { "end": 7.9, "circleAt": 4.7, "arrowAt": 5.15, "labelAt": 5.3, "captionAt": 5.9, "nota": "Tony con los brazos abiertos y explosiones detrás; círculo rojo + flecha + 'ESTE TÍO'. Funciona aunque quites la voz." },
+  "demo": {
+    "start": 7.9,
+    "seg1": { "srcStart": 2.6, "srcEnd": 3.8, "nota": "velocidad normal; las palmadas están en 3,24 y 3,51 s de la grabación" },
+    "seg2": { "srcStart": 3.8, "srcEnd": 10.7, "speed": 2.3, "nota": "ventanas abriéndose, acelerado y sin audio original" },
+    "claps": [3.24, 3.51]
+  },
+  "payoff": { "srcStart": 10.7, "nota": "escritorio ya montado, a velocidad normal, hasta el final" },
+
+  "voz": [
+    { "file": "audio/voz_01.wav", "at": 1.65 },
+    { "file": "audio/voz_02.wav", "at": 4.15 },
+    { "file": "audio/voz_03.wav", "at": 12.1 },
+    { "file": "audio/voz_04.wav", "at": 13.7 }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remotion: montaje y animación"
+  short_description: "Edita vídeos con tus recursos y crea animaciones"
+  default_prompt: "Usa $remotion-produccion para montar un vídeo con los recursos que te doy y el resultado que te describo."

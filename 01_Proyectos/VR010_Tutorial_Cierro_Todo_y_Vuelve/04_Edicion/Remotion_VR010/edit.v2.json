@@ -1,0 +1,38 @@
+{
+  "_comentario": "VR010 V2 con la voz original del tutorial (narrador-launcher-es). Brutos limpios: C = Creacion Workspace Bueno.mp4, I = Introduccion.mp4 (01_Brutos/T01_Tutorial_Desde_Cero). Tiempos de salida en segundos; la voz fija el ritmo (ver 03_Recursos/voz/voz_v2.json).",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration": 38.76,
+  "segs": [
+    { "file": "C", "from": 62.0, "to": 100.3, "speed": 2.9, "nota": "S1 0-13.2: abrir y colocar ventanas en cámara rápida (problema)" },
+    { "file": "I", "from": 9.3, "to": 13.2, "speed": 1, "nota": "S2 13.2-17.1: panel y cursor hacia Lanzar (Con Workspace Launcher... un clic)" },
+    { "file": "I", "from": 13.2, "to": 21.6, "speed": 4, "nota": "S3 17.1-19.2: clic y escritorio montado (avance del resultado)" },
+    { "file": "C", "from": 144.4, "to": 152.45, "speed": 1, "nota": "S4 19.2-27.25: limpiar entorno y clic en Lanzar (~150.8)" },
+    { "file": "C", "from": 152.45, "to": 155.65, "speed": 1.25, "nota": "S5 27.25-29.8: pantalla de lanzamiento" },
+    { "file": "C", "from": 155.65, "to": 160.2, "speed": 1.34, "nota": "S6 29.8-33.2: se abren las ventanas y carga la página" },
+    { "file": "C", "from": 160.2, "to": 165.76, "speed": 1, "nota": "S7 33.2-38.76: resultado, aguanta" }
+  ],
+  "t": { "chip1": 5.96, "chip2": 7.34, "chip3": 8.34, "cut1": 13.2, "click1": 17.1, "cut2": 19.2, "close": 20.8, "click2": 25.6, "splash": 27.25, "win": 29.8, "result": 33.2 },
+  "camera": [
+    { "t": 0.0,   "cx": 1000, "cy": 720, "s": 0.8, "H": 1100 },
+    { "t": 13.15, "cx": 1700, "cy": 720, "s": 0.8, "H": 1100 },
+    { "t": 13.2,  "cx": 1300, "cy": 640, "s": 0.9,  "H": 1100 },
+    { "t": 16.6,  "cx": 1700, "cy": 520, "s": 1.0,  "H": 1100 },
+    { "t": 17.1,  "cx": 1700, "cy": 520, "s": 1.0,  "H": 1100 },
+    { "t": 17.15, "cx": 1280, "cy": 720, "s": 0.78, "H": 1100 },
+    { "t": 19.15, "cx": 1700, "cy": 860, "s": 0.78, "H": 1100 },
+    { "t": 19.2,  "cx": 1280, "cy": 720, "s": 0.9,  "H": 1100 },
+    { "t": 21.0,  "cx": 1280, "cy": 720, "s": 0.95, "H": 1100 },
+    { "t": 23.8,  "cx": 1280, "cy": 720, "s": 0.95, "H": 1100 },
+    { "t": 25.3,  "cx": 1700, "cy": 520, "s": 1.05, "H": 1100 },
+    { "t": 26.9,  "cx": 1700, "cy": 520, "s": 1.05, "H": 1100 },
+    { "t": 27.25, "cx": 1280, "cy": 720, "s": 0.95, "H": 1100 },
+    { "t": 29.75, "cx": 1280, "cy": 720, "s": 0.95, "H": 1100 },
+    { "t": 29.8,  "cx": 900,  "cy": 700, "s": 0.85, "H": 1100 },
+    { "t": 31.4,  "cx": 1500, "cy": 700, "s": 0.85, "H": 1100 },
+    { "t": 33.0,  "cx": 1920, "cy": 1000, "s": 0.95, "H": 1100 },
+    { "t": 33.4,  "cx": 1920, "cy": 1000, "s": 0.95, "H": 1100 },
+    { "t": 34.8,  "cx": 1280, "cy": 720, "s": 0.4,  "H": 576 }
+  ]
+}

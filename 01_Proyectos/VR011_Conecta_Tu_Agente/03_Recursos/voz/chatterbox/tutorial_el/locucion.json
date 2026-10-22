@@ -1,0 +1,65 @@
+{
+ "duracion": 30.87,
+ "tomas": [
+  {
+   "id": "v1",
+   "inicio": 0.0,
+   "duracion": 4.36,
+   "texto": "¿Y si el agente que ya usas pudiera actuar dentro de Workspace Launcher?"
+  },
+  {
+   "id": "v2",
+   "inicio": 4.61,
+   "duracion": 1.28,
+   "texto": "Lo conectas una vez."
+  },
+  {
+   "id": "v3",
+   "inicio": 6.14,
+   "duracion": 1.8,
+   "texto": "Y le hablas como a una persona."
+  },
+  {
+   "id": "v4",
+   "inicio": 8.24,
+   "duracion": 5.38,
+   "texto": "Pídele un espacio para estudiar, con tus apuntes, el navegador y la terminal."
+  },
+  {
+   "id": "v5",
+   "inicio": 13.92,
+   "duracion": 2.96,
+   "texto": "Y él lo prepara, cada cosa en su sitio."
+  },
+  {
+   "id": "v6",
+   "inicio": 17.23,
+   "duracion": 2.72,
+   "texto": "Pídele un atajo de teclado para lanzarlo."
+  },
+  {
+   "id": "v7",
+   "inicio": 20.2,
+   "duracion": 1.94,
+   "texto": "O que ajuste la aplicación a tu manera."
+  },
+  {
+   "id": "v8",
+   "inicio": 22.49,
+   "duracion": 2.84,
+   "texto": "Él propone. Tú revisas y decides."
+  },
+  {
+   "id": "v9",
+   "inicio": 25.68,
+   "duracion": 3.36,
+   "texto": "Tu agente, conectado a tu forma de trabajar."
+  },
+  {
+   "id": "v10",
+   "inicio": 29.39,
+   "duracion": 1.48,
+   "texto": "¿Qué le pedirías primero?"
+  }
+ ]
+}

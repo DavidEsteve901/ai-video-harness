@@ -1,0 +1,8 @@
+{
+  "_comentario": "La duracion y los golpes salen de la locucion (src/timeline.ts + src/voz.json). Aqui solo van los margenes entre bloques de voz.",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "start": 0.3,
+  "gaps": { "rewindAfterVo": 0.2, "deskVo": 0.85, "beforeMontage": 0.3 }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vídeos: voces y locución"
+  short_description: "Elige y genera voces ES/EN con la Biblioteca de Voces local"
+  default_prompt: "Usa $voces-locucion para elegir una voz de la biblioteca y generar este guion manteniendo una identidad fija por personaje y dirigiendo emoción, intención e intensidad de cada frase según el contexto."

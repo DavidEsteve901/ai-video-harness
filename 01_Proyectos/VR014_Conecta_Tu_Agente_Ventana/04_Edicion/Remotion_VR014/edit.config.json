@@ -1,0 +1,71 @@
+{
+  "fps": 60,
+  "voz": {
+    "carpeta_tomas": "<RAIZ_REPO>/01_Proyectos/VR014_Conecta_Tu_Agente_Ventana/03_Recursos/voz/gemini/tomas",
+    "entrada_s": 0.55,
+    "cola_final_s": 2.4,
+    "tomas": [
+      {
+        "id": "t01",
+        "toma": "A",
+        "pausa_tras": 0.85
+      },
+      {
+        "id": "t02",
+        "toma": "A",
+        "pausa_tras": 0.3
+      },
+      {
+        "id": "t03",
+        "toma": "A",
+        "pausa_tras": 0.35
+      },
+      {
+        "id": "t04",
+        "toma": "A",
+        "pausa_tras": 0.9
+      },
+      {
+        "id": "t05",
+        "toma": "A",
+        "pausa_tras": 1.0
+      },
+      {
+        "id": "t06",
+        "toma": "A",
+        "pausa_tras": 0.4
+      },
+      {
+        "id": "t07",
+        "toma": "A",
+        "pausa_tras": 0.4
+      },
+      {
+        "id": "t08",
+        "toma": "A",
+        "pausa_tras": 0.4
+      },
+      {
+        "id": "t09",
+        "toma": "A",
+        "pausa_tras": 0.55
+      },
+      {
+        "id": "t10",
+        "toma": "A",
+        "pausa_tras": 0.75
+      },
+      {
+        "id": "t11",
+        "toma": "A",
+        "pausa_tras": 0.45
+      },
+      {
+        "id": "t12",
+        "toma": "A",
+        "pausa_tras": 0
+      }
+    ],
+    "nota": "Voz es-es-training-9 con gemini-3.8-flash-lite-tts, 1 toma por frase (cupo)"
+  }
+}

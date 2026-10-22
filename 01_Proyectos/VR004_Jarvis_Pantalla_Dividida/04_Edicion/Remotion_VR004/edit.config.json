@@ -1,0 +1,10 @@
+{
+  "_comentario": "Pantalla dividida sencilla: banda de texto + Tony gritando (4:3, sin recortar) + tu demo (16:9, sin recortar). Sin efectos ni sonidos añadidos.",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration": 24.75,
+  "texto": "Jarvis cuando se entera de que le he quitado el trabajo 😭",
+  "tonyAudio": true,
+  "demoAudio": false
+}

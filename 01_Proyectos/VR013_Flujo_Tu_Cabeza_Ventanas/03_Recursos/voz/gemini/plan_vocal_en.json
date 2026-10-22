@@ -1,0 +1,18 @@
+{
+  "voz": "en-us-training-6",
+  "modelo": "gemini-3.8-flash-lite-tts",
+  "tomas": [
+    {"id": "t01", "texto": "Your brain has too many windows open.", "estilo": "intriguing and self-assured, like revealing something"},
+    {"id": "t02", "texto": "You hunt for a tab. You aim. You drag. You switch desktops blind.", "estilo": "listing with rhythm, a little overwhelmed"},
+    {"id": "t03", "texto": "And when you finally find it... what were you going to do?", "estilo": "with a pause, then knowing confusion"},
+    {"id": "t04", "texto": "Every search is a tiny decision. And hundreds of tiny decisions drain your mind.", "estilo": "reflective, with weight"},
+    {"id": "t05", "texto": "What if your hand knew the way on its own?", "estilo": "excited, slowing down, posing a big idea"},
+    {"id": "t06", "texto": "Your brain remembers places better than lists. So give it a map.", "estilo": "confident and clear, like a good teacher"},
+    {"id": "t07", "texto": "One desktop for each thing. Your thumb goes forward... your thumb goes back.", "estilo": "brisk and playful, with rhythm"},
+    {"id": "t08", "texto": "Rest the pointer on a zone, one tap of your thumb, and its windows rotate. No click.", "estilo": "satisfied and clear"},
+    {"id": "t09", "texto": "And tabs switch the same way: without aiming at any of them.", "estilo": "light and friendly"},
+    {"id": "t10", "texto": "You stop thinking about where everything is. And start thinking about what you're doing.", "estilo": "warm and convinced"},
+    {"id": "t11", "texto": "That's getting into flow.", "estilo": "unhurried, with intention"},
+    {"id": "t12", "texto": "Now your head has just one window open: the one that matters.", "estilo": "warm and unhurried, closing with a smile"}
+  ]
+}

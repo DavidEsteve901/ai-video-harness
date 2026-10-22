@@ -1,0 +1,10 @@
+{
+  "nombre": "VR009 Mi PC y yo trabajando",
+  "personajes": { "Dev": { "voz": "dev_harto" } },
+  "tomas": [
+    { "id": "v1", "personaje": "Dev", "texto": "Mi PC y yo, trabajando en un proyecto.", "emocion": "serio", "intencion": "Presentar el chiste con seriedad de oficina, sin hype.", "intensidad": 0.4, "ritmo": 1.08, "pausa_ms": 250 },
+    { "id": "v2", "personaje": "Dev", "texto": "Yo he dicho una frase. Él ha abierto todo.", "emocion": "serio", "intencion": "Repartir el trabajo con descaro tranquilo: yo poco, él todo.", "intensidad": 0.4, "ritmo": 1.08, "pausa_ms": 250 },
+    { "id": "v3", "personaje": "Dev", "texto": "Yo he dicho otra. Él las ha colocado.", "emocion": "sarcasmo", "intencion": "Segunda vuelta del mismo reparto, algo más socarrón.", "intensidad": 0.3, "ritmo": 1.08, "pausa_ms": 250 },
+    { "id": "v4", "personaje": "Dev", "texto": "Hoy he trabajado muchísimo.", "emocion": "calma", "intencion": "Remate: orgullo cansado y fingido de quien no ha movido un dedo.", "intensidad": 0.35, "ritmo": 0.97, "pausa_ms": 0 }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "vr001_junior_senior_19s_es",
+  "language": "es",
+  "theme": "VR001",
+  "cut": "19s",
+  "format": "vertical",
+  "hook": "Junior vs senior preparando el escritorio 😅",
+  "cover_text": "JUNIOR vs SENIOR",
+  "sources": {
+    "music": "6_Videos_Rapidos/VR001_Junior_vs_Senior/VR001_Junior_vs_Senior_FINAL_1080x1920_60fps_V1.mp4"
+  },
+  "posts": {
+    "youtube": {
+      "title": "Junior vs senior preparando el escritorio 😅 #Shorts",
+      "description": "Mismas aplicaciones. Dos formas de empezar. 😅\n\nArriba: abrir y colocar todo a mano.\nAbajo: lanzar el workspace con Workspace Launcher.\n\nJUNIOR va a cámara rápida (2,35×).\n¿Tú cuál eres? 👀\n\n#Shorts #Programacion #Productividad #Windows #Automatizacion",
+      "tags": [
+        "junior vs senior",
+        "programación",
+        "productividad",
+        "Windows",
+        "automatización",
+        "Workspace Launcher"
+      ],
+      "comment": "¿Cuántas aplicaciones abres antes de empezar? 👀"
+    },
+    "instagram": {
+      "caption": "Junior vs senior preparando el escritorio 😅\n\nLas mismas apps, dos formas de empezar.\n¿Tú cuál eres? 👀\n\nArriba va a cámara rápida (2,35×).\n\n#Programacion #Productividad #Windows #Automatizacion #Reels",
+      "hashtags": [
+        "#Programacion",
+        "#Productividad",
+        "#Windows",
+        "#Automatizacion",
+        "#Reels"
+      ],
+      "comment": "Abrir. Colocar. Repetir. ¿También te pasa? 😅"
+    },
+    "tiktok": {
+      "caption": "Junior vs senior preparando el escritorio 😅\nLas mismas apps, dos formas de empezar. ¿Tú cuál eres? 👀\nJUNIOR a cámara rápida (2,35×).\n\n#Programacion #Productividad #Windows #Automatizacion",
+      "hashtags": [
+        "#Programacion",
+        "#Productividad",
+        "#Windows",
+        "#Automatizacion"
+      ],
+      "comment": "¿Team manual o team automatizar? 👀"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "voz": "es-es-training-9",
+  "modelo": "gemini-3.8-flash-tts",
+  "tomas": [
+    {"id": "t01", "texto": "¿Por qué al cruzar una puerta se te olvida a qué ibas?", "estilo": "intrigante y cómplice, planteando un misterio que nos pasa a todos; ritmo ágil de vídeo corto"},
+    {"id": "t02", "texto": "Se llama efecto puerta: tu cerebro cierra la escena y la archiva.", "estilo": "revelando un dato curioso con seguridad, rápido y claro"},
+    {"id": "t03", "texto": "Y en tu PC, cada Alt Tab es una puerta.", "estilo": "giro inesperado, con picardía, como quien cae en la cuenta"},
+    {"id": "t04", "texto": "¿Cuántas cruzas al día?", "estilo": "pregunta directa y retadora al espectador, rápida"},
+    {"id": "t05", "texto": "Yo ya lo tengo todo en la misma habitación.", "estilo": "tranquilo y satisfecho, cerrando con una sonrisa"}
+  ]
+}

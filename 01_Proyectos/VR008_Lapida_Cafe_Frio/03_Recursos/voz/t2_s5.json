@@ -1,0 +1,22 @@
+{
+ "mezcla": "G:\\Mi unidad\\00_SecondBrain\\10_Projects\\Workspace_Launcher\\05_Marketing\\Videos\\Videos_Rapidos\\01_Proyectos\\VR008_Lapida_Cafe_Frio\\03_Recursos\\voz\\t2_s5.wav",
+ "duracion": 1.169,
+ "tomas": [
+  {
+   "n": 1,
+   "voz": "doc_naturaleza",
+   "texto": "Y si nada cambia.",
+   "archivo": "G:\\Mi unidad\\00_SecondBrain\\10_Projects\\Workspace_Launcher\\05_Marketing\\Videos\\Videos_Rapidos\\01_Proyectos\\VR008_Lapida_Cafe_Frio\\03_Recursos\\voz\\t2_s5_tomas\\0001.wav",
+   "inicio": 0.0,
+   "duracion": 0.919
+  }
+ ],
+ "parametros": {
+  "seed": 5,
+  "velocidad": 1.0,
+  "acelerar": 1.05,
+  "fx": null,
+  "lang": "es",
+  "job": "a9082e60615a4cd1960d512a5b042b3a"
+ }
+}

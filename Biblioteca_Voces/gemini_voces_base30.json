@@ -1,0 +1,242 @@
+[
+ {
+  "voz": "Zephyr",
+  "id": "zephyr",
+  "estilo_oficial": "Bright",
+  "genero": "female",
+  "tono_pitch": "high",
+  "descripcion": "Bright, positive, and forward-looking voice with a higher pitch. Recommended for showreels or product announcements."
+ },
+ {
+  "voz": "Puck",
+  "id": "puck",
+  "estilo_oficial": "Upbeat",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Upbeat, energetic, and cheerful voice with a rich, approachable tone. Recommended for podcasts, conversational agents, entertainment reviews, or ads."
+ },
+ {
+  "voz": "Charon",
+  "id": "charon",
+  "estilo_oficial": "Informative",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Informative and steady voice with a low pitch. Recommended for technical explainers or documentaries."
+ },
+ {
+  "voz": "Kore",
+  "id": "kore",
+  "estilo_oficial": "Firm",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Firm, direct, and authoritative voice with a medium pitch. Recommended for news reports or official messages."
+ },
+ {
+  "voz": "Fenrir",
+  "id": "fenrir",
+  "estilo_oficial": "Excitable",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Excitable, high-energy, and passionate voice with a lower-middle pitch. Recommended for sports clips or energetic intros."
+ },
+ {
+  "voz": "Leda",
+  "id": "leda",
+  "estilo_oficial": "Youthful",
+  "genero": "female",
+  "tono_pitch": "high",
+  "descripcion": "Youthful, vibrant, and energetic voice with a higher pitch. Recommended for pop culture updates or gaming content."
+ },
+ {
+  "voz": "Orus",
+  "id": "orus",
+  "estilo_oficial": "Firm",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Firm, serious, and no-nonsense voice with a lower-middle pitch. Recommended for project reports or safety readouts."
+ },
+ {
+  "voz": "Aoede",
+  "id": "aoede",
+  "estilo_oficial": "Breezy",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Breezy, light, and relaxed voice with a medium pitch. Recommended for lifestyle or travel vlogs."
+ },
+ {
+  "voz": "Callirrhoe",
+  "id": "callirrhoe",
+  "estilo_oficial": "Easy-going",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Easy-going, relaxed, and casual voice with a medium pitch. Recommended for friendly guides or casual vlogs."
+ },
+ {
+  "voz": "Autonoe",
+  "id": "autonoe",
+  "estilo_oficial": "Bright",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Bright, positive, and enthusiastic voice with a medium pitch. Recommended for promotions or product feature updates."
+ },
+ {
+  "voz": "Enceladus",
+  "id": "enceladus",
+  "estilo_oficial": "Breathy",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Breathy, intimate, and soft-spoken voice with a low pitch. Recommended for storytelling or intimate narrations."
+ },
+ {
+  "voz": "Iapetus",
+  "id": "iapetus",
+  "estilo_oficial": "Clear",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Clear, crisp, and articulate voice with a lower-middle pitch. Recommended for help videos or onboarding walkthroughs."
+ },
+ {
+  "voz": "Umbriel",
+  "id": "umbriel",
+  "estilo_oficial": "Easy-going",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Easy-going, laid-back, and casual voice with a lower-middle pitch. Recommended for reviews or casual explainers."
+ },
+ {
+  "voz": "Algieba",
+  "id": "algieba",
+  "estilo_oficial": "Smooth",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Smooth, relaxed, and polished voice with a low pitch. Recommended for corporate videos or polished explainers."
+ },
+ {
+  "voz": "Despina",
+  "id": "despina",
+  "estilo_oficial": "Smooth",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Smooth, mellow, and polished voice with a medium pitch. Recommended for marketing ads or professional e-learning."
+ },
+ {
+  "voz": "Erinome",
+  "id": "erinome",
+  "estilo_oficial": "Clear",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Clear, articulate, and precise voice with a medium pitch. Recommended for training walkthroughs or instructions."
+ },
+ {
+  "voz": "Algenib",
+  "id": "algenib",
+  "estilo_oficial": "Gravelly",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Gravelly, grounded, and hard-hitting voice with a low pitch. Recommended for dramatic narration or intense stories."
+ },
+ {
+  "voz": "Rasalgethi",
+  "id": "rasalgethi",
+  "estilo_oficial": "Informative",
+  "genero": "male",
+  "tono_pitch": "medium",
+  "descripcion": "Informative and measured voice with a medium pitch. Recommended for history lectures or audiobooks."
+ },
+ {
+  "voz": "Laomedeia",
+  "id": "laomedeia",
+  "estilo_oficial": "Upbeat",
+  "genero": "female",
+  "tono_pitch": "high",
+  "descripcion": "Upbeat, energetic, and positive voice with a higher pitch. Recommended for sales pitches or social media marketing."
+ },
+ {
+  "voz": "Achernar",
+  "id": "achernar",
+  "estilo_oficial": "Soft",
+  "genero": "female",
+  "tono_pitch": "high",
+  "descripcion": "Soft, calm, and soothing voice with a higher pitch. Recommended for quiet or personal storytelling."
+ },
+ {
+  "voz": "Alnilam",
+  "id": "alnilam",
+  "estilo_oficial": "Firm",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Firm, direct, and commanding voice with a lower-middle pitch. Recommended for authoritative instructions or announcements."
+ },
+ {
+  "voz": "Schedar",
+  "id": "schedar",
+  "estilo_oficial": "Even",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Even, balanced, and steady voice with a lower-middle pitch. Recommended for neutral scripts or documentation readouts."
+ },
+ {
+  "voz": "Gacrux",
+  "id": "gacrux",
+  "estilo_oficial": "Mature",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Mature, authoritative, and professional voice with a medium pitch. Recommended for official announcements or serious presentations."
+ },
+ {
+  "voz": "Pulcherrima",
+  "id": "pulcherrima",
+  "estilo_oficial": "Forward",
+  "genero": "neutral",
+  "tono_pitch": "medium",
+  "descripcion": "Forward, confident, and direct voice with a medium pitch. Recommended for sales calls or direct prompts."
+ },
+ {
+  "voz": "Achird",
+  "id": "achird",
+  "estilo_oficial": "Friendly",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Friendly, approachable, and warm voice with a lower-middle pitch. Recommended for casual walkthroughs or vlogs."
+ },
+ {
+  "voz": "Zubenelgenubi",
+  "id": "zubenelgenubi",
+  "estilo_oficial": "Casual",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Casual, conversational, and laid-back voice with a lower-middle pitch. Recommended for startup updates or casual pitches."
+ },
+ {
+  "voz": "Vindemiatrix",
+  "id": "vindemiatrix",
+  "estilo_oficial": "Gentle",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Gentle, mild, and calming voice with a medium pitch. Recommended for kids content or meditation videos."
+ },
+ {
+  "voz": "Sadachbia",
+  "id": "sadachbia",
+  "estilo_oficial": "Lively",
+  "genero": "male",
+  "tono_pitch": "low",
+  "descripcion": "Lively, animated, and engaging voice with a low pitch. Recommended for daily digests or podcasts."
+ },
+ {
+  "voz": "Sadaltager",
+  "id": "sadaltager",
+  "estilo_oficial": "Knowledgeable",
+  "genero": "male",
+  "tono_pitch": "medium",
+  "descripcion": "Knowledgeable and steady voice with a medium pitch. Recommended for scientific explanations or deep dives."
+ },
+ {
+  "voz": "Sulafat",
+  "id": "sulafat",
+  "estilo_oficial": "Warm",
+  "genero": "female",
+  "tono_pitch": "medium",
+  "descripcion": "Warm, inviting, and comforting voice with a medium pitch. Recommended for onboarding screens or warm welcomes."
+ }
+]

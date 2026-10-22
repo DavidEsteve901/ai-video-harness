@@ -1,0 +1,97 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Biblioteca de voces</title><style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1f;--mut:#6b6b70;--line:#e2e0da;--acc:#b45309;--accbg:#fef3c7;--ok:#15803d}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--card:#1e1e21;--ink:#ececee;--mut:#9a9aa2;--line:#323236;--acc:#fbbf24;--accbg:#3a2e10;--ok:#4ade80}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,Segoe UI,sans-serif}
+main{max-width:1240px;margin:0 auto;padding:20px 16px 140px}h1{margin:0 0 2px;font-size:26px}p.s{color:var(--mut);margin:0 0 14px}
+.bar{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--line)}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
+input[type=search]{width:100%;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:4px 11px;border-radius:99px;cursor:pointer;font:inherit;font-size:13px}
+.chip.on{background:var(--accbg);border-color:var(--acc);color:var(--acc);font-weight:600}.sep{width:1px;height:20px;background:var(--line);margin:0 4px}
+h2{margin:26px 0 10px;font-size:18px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;position:relative}
+.card.sel{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc)}.card.playing{border-color:var(--ok)}
+.card h3{margin:0;font-size:15.5px;padding-right:34px}.k{font:12px ui-monospace,Consolas,monospace;color:var(--mut)}
+.badge{font-size:11px;padding:1px 7px;border-radius:99px;background:var(--accbg);color:var(--acc);font-weight:600;margin-left:6px;white-space:nowrap}
+.card p{margin:0;font-size:13.5px}.mut{color:var(--mut)}
+.play{display:flex;align-items:center;gap:8px}
+.pb{width:38px;height:38px;border-radius:50%;border:none;background:var(--acc);color:var(--bg);font-size:15px;cursor:pointer;flex:none}
+.pb.on{background:var(--ok)}.prog{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden}.prog i{display:block;height:100%;width:0;background:var(--acc)}
+.pb2{border:1px solid var(--line);background:none;color:var(--mut);border-radius:8px;padding:3px 9px;cursor:pointer;font-size:12px;font:inherit}
+.star{position:absolute;top:8px;right:8px;border:none;background:none;font-size:22px;cursor:pointer;color:var(--mut);line-height:1}.star.on{color:var(--acc)}
+details summary{cursor:pointer;color:var(--mut);font-size:12.5px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:10px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:13.5px;vertical-align:middle}th{color:var(--mut);font-weight:600}
+.cell{display:flex;gap:4px;align-items:center}.pl{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:3px 10px;cursor:pointer;font:inherit;font-size:13px}.pl.on{background:var(--accbg);color:var(--acc);border-color:var(--acc)}
+.mini{border:none;background:none;cursor:pointer;font-size:17px;color:var(--mut);padding:0 2px}.mini.on{color:var(--acc)}
+#tray{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--acc);padding:10px 16px;z-index:10;display:none}
+#tray .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#tray b{font-size:14px}.tag{background:var(--accbg);color:var(--acc);border-radius:99px;padding:2px 4px 2px 10px;font-size:13px;display:inline-flex;gap:4px;align-items:center}.tag button{border:none;background:none;color:inherit;cursor:pointer;font-size:14px}
+.btn{border:1px solid var(--acc);background:var(--acc);color:var(--bg);border-radius:8px;padding:6px 14px;cursor:pointer;font:inherit;font-weight:600;font-size:13.5px}.btn.o{background:none;color:var(--acc)}
+.sync{font-size:13px;margin:0 0 10px;padding:6px 10px;border-radius:8px;border:1px solid var(--line)}.sync.ok{color:var(--ok);border-color:var(--ok)}.sync.off{color:var(--acc);background:var(--accbg);border-color:var(--acc)}
+@media (max-width:560px){.grid{grid-template-columns:1fr}}
+</style></head><body><main>
+<h1>Biblioteca de voces</h1>
+<p class="s"><span id="cnt"></span> Voces sintéticas originales para vídeos. ▶ para oír · ⭐ para elegir · abajo aparece <b>tu selección</b> lista para copiarle al agente. Guía por tipo de vídeo: <code>03_GUIA_VOZ_SEGUN_VIDEO.md</code>.</p>
+<p id="sync" class="sync off">…</p>
+<div class="bar"><input id="q" type="search" placeholder="Buscar: documental, sarcástico, tráiler, mujer, susurro, latino…" autofocus>
+<div class="row" id="fi"></div></div>
+<div id="arq"></div>
+<h2 id="emoh">Paleta de emociones</h2><p class="s">Referencias de interpretación. Para cambiar de emoción conserva la voz del personaje y dirige cada frase; estas muestras pueden ser voces distintas.</p>
+<div id="emo"></div></main>
+<div id="tray"><div class="in"><b id="tn"></b><span id="tt"></span><span style="flex:1"></span><button class="btn" id="cp">Copiar para el agente</button><button class="btn o" id="cl">Vaciar</button></div></div>
+<script>
+const D=__DATOS__;
+let lang='',fam='',onlyFav=false;const A=new Audio();let cur=null;
+let favs=new Set();try{favs=new Set(JSON.parse(localStorage.getItem('vb_favs')||'[]'))}catch(e){}
+const API=location.protocol.startsWith('http')?'':'http://127.0.0.1:7861';let synced=false,tm=null;
+function setSync(ok,msg){synced=ok;const s=document.getElementById('sync');s.className='sync '+(ok?'ok':'off');s.innerHTML=msg}
+const OFF='○ Solo en este navegador: el agente <b>no</b> ve tus favoritas. Abre la web con <code>00_ABRIR_VOCES.cmd</code> (carpeta Videos_Rapidos) para que las guarde.';
+async function push(){try{const r=await fetch(API+'/api/favoritas',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({claves:[...favs]})});if(!r.ok)throw 0;setSync(true,'● Guardado para el agente · <code>FAVORITAS.md</code> ('+favs.size+' favoritas)')}catch(e){setSync(false,OFF)}}
+async function pull(){try{const r=await fetch(API+'/api/favoritas');if(!r.ok)throw 0;const s=(await r.json()).favoritas||[];
+if(s.length||!favs.size){favs=new Set(s);try{localStorage.setItem('vb_favs',JSON.stringify([...favs]))}catch(e){}}else{await push()}
+setSync(true,'● Conectado con el agente · <code>FAVORITAS.md</code> ('+favs.size+' favoritas)');drawTray();draw()}catch(e){setSync(false,OFF)}}
+const save=()=>{try{localStorage.setItem('vb_favs',JSON.stringify([...favs]))}catch(e){}clearTimeout(tm);tm=setTimeout(push,250)};
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const nameOf={};D.arq.forEach(v=>nameOf[v.clave]=v.nombre);D.emo.forEach(x=>['H','M'].forEach(t=>nameOf[x.lang+'_'+t+'_'+x.emocion]=x.nombre+' ('+(t=='H'?'hombre':'mujer')+', '+x.lang.toUpperCase()+')'));
+function stop(){if(cur){cur.btn.classList.remove('on');cur.btn.textContent=cur.icon||'▶';if(cur.card)cur.card.classList.remove('playing');if(cur.bar)cur.bar.style.width='0'}cur=null}
+function play(src,btn,card,bar,icon){if(cur&&cur.btn===btn&&!A.paused){A.pause();stop();return}stop();A.src=src;A.play().catch(()=>{});cur={btn,card,bar,icon};btn.classList.add('on');btn.textContent='❚❚';if(card)card.classList.add('playing')}
+A.addEventListener('ended',stop);A.addEventListener('timeupdate',()=>{if(cur&&cur.bar&&A.duration)cur.bar.style.width=(100*A.currentTime/A.duration)+'%'});
+function toggle(k){favs.has(k)?favs.delete(k):favs.add(k);save();drawTray();draw()}
+function drawTray(){const t=document.getElementById('tray');const a=[...favs];t.style.display=a.length?'block':'none';document.getElementById('tn').textContent='Mi selección ('+a.length+'):';
+document.getElementById('tt').innerHTML=a.map(k=>'<span class="tag">'+esc(nameOf[k]||k)+' <code>'+esc(k)+'</code><button title="quitar" onclick="toggle(\''+k+'\')">×</button></span>').join(' ')}
+document.getElementById('cp').onclick=()=>{const a=[...favs];const t='Voces elegidas de la Biblioteca de Voces (Videos_Rapidos\\Biblioteca_Voces, skill voces-locucion):\n'+a.map(k=>'- '+k+' — '+(nameOf[k]||k)).join('\n')+'\nUsa estas voces para la locución del vídeo.';
+navigator.clipboard.writeText(t).then(()=>{const b=document.getElementById('cp');b.textContent='¡Copiado!';setTimeout(()=>b.textContent='Copiar para el agente',1500)})};
+document.getElementById('cl').onclick=()=>{favs.clear();save();drawTray();draw()};
+function fi(){const f=document.getElementById('fi');f.innerHTML='';const mk=(t,on,fn)=>{const b=document.createElement('button');b.className='chip'+(on?' on':'');b.textContent=t;b.onclick=fn;f.append(b)};
+[['Todos',''],['Español','es'],['English','en']].forEach(([t,v])=>mk(t,lang===v,()=>{lang=v;fi();draw()}));
+const s=document.createElement('span');s.className='sep';f.append(s);
+mk('⭐ Solo elegidas',onlyFav,()=>{onlyFav=!onlyFav;fi();draw()});
+const s2=document.createElement('span');s2.className='sep';f.append(s2);
+[['Todas las familias','']].concat(D.familias.map(x=>[x,x])).forEach(([t,v])=>mk(t,fam===v,()=>{fam=v;fi();draw()}))}
+function draw(){const q=document.getElementById('q').value.toLowerCase().trim();const root=document.getElementById('arq');root.innerHTML='';let n=0;
+D.familias.forEach(F=>{if(fam&&fam!==F)return;const L=D.arq.filter(v=>v.familia===F&&(!lang||v.lang===lang||(v.bi&&true))&&(!onlyFav||favs.has(v.clave))&&(!q||(v.clave+' '+v.nombre+' '+v.uso+' '+v.desc+' '+v.retencion+' '+v.familia+' '+v.idiomas).toLowerCase().includes(q)));
+if(!L.length)return;n+=L.length;const h=document.createElement('div');h.innerHTML='<h2>'+esc(F)+' <span class="mut">('+L.length+')</span></h2><div class="grid"></div>';const g=h.querySelector('.grid');
+L.forEach(v=>{const c=document.createElement('div');c.className='card'+(favs.has(v.clave)?' sel':'');
+c.innerHTML='<button class="star'+(favs.has(v.clave)?' on':'')+'" title="Elegir">'+(favs.has(v.clave)?'★':'☆')+'</button><h3>'+esc(v.nombre)+'<span class="badge">'+esc(v.idiomas)+'</span></h3><span class="k">'+esc(v.clave)+(v.dur?' · '+v.dur+' s':'')+'</span>'
++(v.muestra?'<div class="play"><button class="pb">▶</button><div class="prog"><i></i></div></div>':'<p class="mut">sin muestra</p>')
++'<p>'+esc(v.uso)+'</p>'+(v.retencion?'<p class="mut">Engancha: '+esc(v.retencion)+'</p>':'')+'<p class="mut">«'+esc(v.texto)+'»</p>'
++(v.bi?'<div class="play"><button class="pb2">▶ Probar en '+(v.lang==='es'?'inglés':'español')+'</button></div>':'')
++'<details><summary>Descripción de diseño</summary><p class="mut">'+esc(v.desc)+'</p></details>';
+c.querySelector('.star').onclick=()=>toggle(v.clave);
+const pb=c.querySelector('.pb');if(pb)pb.onclick=()=>play(v.muestra,pb,c,c.querySelector('.prog i'));
+const p2=c.querySelector('.pb2');if(p2)p2.onclick=()=>play(v.bi,p2,c,null,p2.textContent);
+g.append(c)});root.append(h)});
+if(!n)root.innerHTML='<p class="mut">Ninguna voz coincide.</p>';
+const e=document.getElementById('emo');e.innerHTML='';let any=false;
+['es','en'].forEach(l=>{if(lang&&lang!==l)return;const rows=D.emo.filter(x=>x.lang===l&&(!onlyFav||favs.has(l+'_H_'+x.emocion)||favs.has(l+'_M_'+x.emocion))&&(!q||(x.nombre+' '+x.uso+' '+x.emocion+' emocion').toLowerCase().includes(q)));if(!rows.length)return;any=true;
+const w=document.createElement('div');w.innerHTML='<h3>'+(l==='es'?'Español':'English')+'</h3><table><tr><th>Emoción</th><th>Hombre</th><th>Mujer</th><th>Mejor para</th></tr></table>';const t=w.querySelector('table');
+rows.forEach(x=>{const tr=document.createElement('tr');tr.innerHTML='<td><b>'+esc(x.nombre)+'</b></td><td class="H"></td><td class="M"></td><td class="mut">'+esc(x.uso)+'</td>';
+['H','M'].forEach(tm=>{const td=tr.querySelector('.'+tm),k=l+'_'+tm+'_'+x.emocion,src=x[tm];if(!src){td.textContent='—';return}
+td.innerHTML='<div class="cell"><button class="pl">▶ '+esc(x.emocion)+'</button><button class="mini'+(favs.has(k)?' on':'')+'" title="Elegir">'+(favs.has(k)?'★':'☆')+'</button></div>';
+td.querySelector('.pl').onclick=function(){play(src,this,null,null,'▶ '+x.emocion)};td.querySelector('.mini').onclick=()=>toggle(k)});t.append(tr)});e.append(w)});
+document.getElementById('emoh').style.display=any?'':'none'}
+document.getElementById('cnt').textContent=D.arq.length+' voces + '+D.emo.length*2+' de la paleta de emociones.';
+document.getElementById('q').oninput=draw;fi();draw();drawTray();pull();
+</script></body></html>

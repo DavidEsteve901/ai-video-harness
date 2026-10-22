@@ -1,0 +1,21 @@
+{
+  "_comentario": "VR009 «Mi PC y yo trabajando en un proyecto». Tiempos en segundos. Tras cambiar cortes o voz: node scripts/preparar_assets.mjs --grabaciones <Grabaciones_Personales>",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration": 13.6,
+  "src": "Video Asistente 2.mp4",
+  "cuts": [
+    { "from": 11.5, "to": 17.5, "speed": 2, "nota": "sale la tarjeta del asistente pensando y se abre el navegador" },
+    { "from": 17.5, "to": 34.5, "speed": 3.5, "nota": "se abren YouTube y el artículo" },
+    { "from": 41.0, "to": 56.5, "speed": 3, "nota": "organiza las ventanas y dice «Listo, organicé tus cuatro ventanas»" }
+  ],
+  "cardCrop": { "x": 980, "y": 980, "w": 600, "h": 400, "nota": "la tarjeta del asistente en el bruto (2560x1440)" },
+  "t": { "think": 0.4, "browser": 3.2, "article": 7.7, "organize": 8.9, "done": 11.6 },
+  "vo": [
+    { "file": "v1.wav", "at": 0.3, "text": "Mi PC y yo, trabajando en un proyecto." },
+    { "file": "v2.wav", "at": 3.3, "text": "Yo he dicho una frase. Él ha abierto todo." },
+    { "file": "v3.wav", "at": 8.3, "text": "Yo he dicho otra. Él las ha colocado." },
+    { "file": "v4.wav", "at": 11.75, "text": "Hoy he trabajado muchísimo." }
+  ]
+}

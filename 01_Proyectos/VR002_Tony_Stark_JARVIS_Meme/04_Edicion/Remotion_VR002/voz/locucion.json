@@ -1,0 +1,14 @@
+{
+  "name": "VR002 Tony Stark - locución V3 (emotiva, bilingüe)",
+  "seed": 11,
+  "speed": 1.0,
+  "lines": [
+    { "id": "l1", "lang": "es", "text": "Tranquilo, Tony…" },
+    { "id": "l2", "lang": "es", "text": "Solo… dos palmadas." },
+    { "id": "l3", "lang": "es", "text": "¿¡Ves!? ¡Se abre todo solo!" },
+    { "id": "l4", "lang": "es", "text": "Sin teclado… sin ratón…" },
+    { "id": "l5", "lang": "es", "text": "Otras dos palmadas… ¡y fuera!" },
+    { "id": "l6a", "lang": "es", "text": "¡Que se entere…" },
+    { "id": "l6b", "lang": "en", "text": "JARVIS!" }
+  ]
+}

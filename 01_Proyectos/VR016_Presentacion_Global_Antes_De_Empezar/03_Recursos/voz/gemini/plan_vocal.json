@@ -1,0 +1,23 @@
+{
+  "voz": "es-es-training-9",
+  "modelo": "gemini-3.8-flash-tts",
+  "tomas": [
+    {"id": "t01", "texto": "Cada día trabajas un rato antes de empezar a trabajar.", "estilo": "intrigante y con aplomo, como quien revela algo que todos hacen sin darse cuenta"},
+    {"id": "t02", "texto": "Abres las mismas apps. Las colocas en cada pantalla. Buscas dónde lo dejaste.", "estilo": "enumerando con ritmo, cada vez un poco más cansado"},
+    {"id": "t03", "texto": "Y mañana... otra vez.", "estilo": "resignado, con ironía cómplice y una pausa antes de 'otra vez'"},
+    {"id": "t04", "texto": "¿Y si tu ordenador estuviera listo cuando tú lo estás?", "estilo": "ilusionado, bajando el ritmo, planteando una gran idea"},
+    {"id": "t05", "texto": "Lo preparas una vez: apps, webs, proyectos y terminales.", "estilo": "seguro y claro, enumerando con ritmo"},
+    {"id": "t06", "texto": "Cada uno en su pantalla, en su escritorio y en su zona.", "estilo": "preciso, marcando cada lugar"},
+    {"id": "t07", "texto": "Y con un clic, todo vuelve a su sitio.", "estilo": "satisfecho y con impulso, como un pequeño triunfo"},
+    {"id": "t08", "texto": "¿Ya lo tienes abierto? Lo capturas tal cual.", "estilo": "ágil y cómplice"},
+    {"id": "t09", "texto": "¿Cambias de pantallas? Detecta cuáles tienes y usa su perfil.", "estilo": "ágil y resolutivo"},
+    {"id": "t10", "texto": "Desde cualquier app, tu atajo abre una barra: buscas, ordenas ventanas o se lo pides a la IA.", "estilo": "ligero y claro, con chispa"},
+    {"id": "t11", "texto": "O pídeselo con tus palabras, por chat o en voz alta, y te monta el espacio.", "estilo": "cercano y natural"},
+    {"id": "t12", "texto": "Dictas en cualquier app, y el texto aparece donde escribías.", "estilo": "sencillo, con una sonrisa"},
+    {"id": "t13", "texto": "Y si ya usas un agente de IA, lo conectas, y configura la app por ti.", "estilo": "seguro, con un punto de complicidad"},
+    {"id": "t14", "texto": "Con el tiempo, nota tus rutinas y te las ofrece. Y solo te avisa cuando merece la pena.", "estilo": "tranquilo y atento"},
+    {"id": "t15", "texto": "Pero nada pasa a tus espaldas: tú decides.", "estilo": "firme y sereno"},
+    {"id": "t16", "texto": "Tu ordenador recuerda cómo trabajas, para que tú pienses solo en tu trabajo.", "estilo": "cálido y convencido, sin prisa"},
+    {"id": "t17", "texto": "Ahora te sientas... y ya estás trabajando.", "estilo": "cálido, cerrando con una sonrisa, pausa antes del final"}
+  ]
+}

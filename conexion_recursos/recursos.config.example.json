@@ -1,0 +1,36 @@
+{
+  "_comentario": "Copia este archivo a recursos.config.local.json (o ejecuta `python herramientas/recursos.py init`). El .local NO se sube a git: contiene rutas de TU equipo.",
+  "schema_version": 1,
+  "bibliotecas": [
+    {
+      "id": "visuales",
+      "nombre": "Vídeos, imágenes y GIFs",
+      "descripcion": "Clips de stock, capturas, fondos, GIFs de reacción y brutos reutilizables.",
+      "rutas": [
+        "D:/Recursos_Video/Visuales",
+        "/mnt/nas/recursos/visuales",
+        "~/Recursos_Video/Visuales"
+      ],
+      "licencia_por_defecto": "revisar antes de publicar"
+    },
+    {
+      "id": "sonidos",
+      "nombre": "Efectos de sonido y música",
+      "descripcion": "SFX, ambientes, música sin copyright.",
+      "rutas": ["D:/Recursos_Video/Sonidos", "~/Recursos_Video/Sonidos"],
+      "licencia_por_defecto": "revisar antes de publicar"
+    },
+    {
+      "id": "voces",
+      "nombre": "Voces de referencia y locuciones",
+      "descripcion": "Muestras de voz y locuciones ya generadas (solo voces propias o diseñadas, nunca clones de terceros).",
+      "rutas": ["D:/Recursos_Video/Voces"]
+    },
+    {
+      "id": "proyectos_render",
+      "nombre": "Brutos y exportaciones pesadas",
+      "descripcion": "Vídeos de proyectos: brutos, renders intermedios y finales (los de gran tamaño no van al repo).",
+      "rutas": ["D:/Recursos_Video/Proyectos"]
+    }
+  ]
+}

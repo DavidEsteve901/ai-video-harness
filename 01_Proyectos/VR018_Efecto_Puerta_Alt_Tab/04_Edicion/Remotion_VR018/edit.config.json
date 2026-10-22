@@ -1,0 +1,46 @@
+{
+  "fps": 60,
+  "voz": {
+    "carpeta_tomas": "<RAIZ_REPO>/01_Proyectos/VR018_Efecto_Puerta_Alt_Tab/03_Recursos/voz/gemini/tomas_x115",
+    "entrada_s": 0.1,
+    "cola_final_s": 1.1,
+    "tomas": [
+      {
+        "id": "t01",
+        "toma": "A",
+        "pausa_tras": 0.15
+      },
+      {
+        "id": "t02",
+        "toma": "A",
+        "pausa_tras": 0.18
+      },
+      {
+        "id": "t03",
+        "toma": "A",
+        "pausa_tras": 0.15
+      },
+      {
+        "id": "t04",
+        "toma": "B",
+        "pausa_tras": 0.35
+      },
+      {
+        "id": "t05",
+        "toma": "A",
+        "pausa_tras": 0.22
+      },
+      {
+        "id": "t06",
+        "toma": "A",
+        "pausa_tras": 0.22
+      },
+      {
+        "id": "t07",
+        "toma": "A",
+        "pausa_tras": 0.0
+      }
+    ],
+    "velocidad": "x1.15 (ffmpeg atempo) sobre las tomas originales de tomas/"
+  }
+}

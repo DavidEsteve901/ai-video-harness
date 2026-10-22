@@ -1,0 +1,52 @@
+{
+  "_comentario": "Tiempos en segundos. Tras cambiar estas tomas ejecuta: node scripts/preparar_assets.mjs",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration": 19.5,
+
+  "hook": {
+    "src": "Robert-Downey-Jr-SnapYT.App (1).mp4",
+    "srcStart": 0.9,
+    "duration": 2.8,
+    "crop": { "x": 80, "y": 0, "w": 480, "h": 360 },
+    "nota": "Gancho: el clip de RDJ donde se oye el grito (empieza en 1,4 s del clip: 0,5 s de calma y luego el grito). 640x360, se recorta a 480x360 y se amplía a 1080x810."
+  },
+
+  "wake": {
+    "src": "Wake up daddys home.mp4",
+    "srcStart": 1.2,
+    "srcEnd": 4.39,
+    "outStart": 2.8,
+    "crop": { "x": 106, "y": 60, "w": 640, "h": 316 },
+    "nota": "Clip NORMAL (no el green screen) recortado: quita las franjas negras y la marca de agua. La frase 'Wake up, daddy's home' suena en 3,0-3,85 s del clip."
+  },
+
+  "plateB": {
+    "greenSrc": "Tony Stark saying Wake Up, Daddy's Home! meme - Green Screen - Iron Man 2.mp4",
+    "frameAt": 13.0,
+    "quad": [[141, 21], [1064, 4], [1007, 533], [167, 543]],
+    "plate": { "w": 1280, "h": 544 },
+    "nota": "Solo se usa un fotograma del monitor gigante verde del clip green screen para meter la demo dentro. quad = esquinas TL, TR, BR, BL"
+  },
+
+  "part2": {
+    "start": 6.0,
+    "segments": [
+      { "demoStart": 1.6, "demoEnd": 9.6, "nota": "DOS palmadas en 3,24 y 3,51 s; ventanas de 5 a 9 s" },
+      { "demoStart": 20.0, "demoEnd": 22.9, "nota": "DOS palmadas en 20,81 y 21,07 s; se cierra todo hacia 22,5 s" }
+    ]
+  },
+  "end": { "start": 16.9, "duration": 2.6 },
+
+  "vo": [
+    { "file": "vo_1.wav", "anchor": "wake", "offset": 0.0, "dur": 1.75, "text": "Tranquilo, Tony…" },
+    { "file": "vo_2.wav", "anchor": "s1", "offset": -0.5, "dur": 2.32, "text": "Solo… dos palmadas." },
+    { "file": "vo_3.wav", "anchor": "open", "offset": 0.0, "dur": 2.55, "text": "¿¡Ves!? ¡Se abre todo solo!" },
+    { "file": "vo_4.wav", "anchor": "open", "offset": 2.0, "dur": 2.55, "text": "Sin teclado… sin ratón…" },
+    { "file": "vo_5.wav", "anchor": "s2", "offset": -0.1, "dur": 2.78, "text": "Otras dos palmadas… ¡y fuera!" },
+    { "file": "vo_6.wav", "anchor": "end", "offset": -0.2, "dur": 1.43, "text": "¡Que se entere…" },
+    { "file": "vo_7.wav", "anchor": "prev", "offset": 0.02, "dur": 1.2, "text": "JARVIS! (en inglés)" }
+  ],
+  "_voNota": "anchor = momento de la escena (hook, wake, s1, open, s2, end) o 'prev' (justo tras la frase anterior); offset en segundos. dur sale de public/vo/zip/timeline.json"
+}

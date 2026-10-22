@@ -1,0 +1,52 @@
+{
+ "0001.wav": {
+  "ini": 0.0,
+  "fin": 3.7,
+  "texto": "y si la gente que ya usas pudiera actuar dentro de Workspace Launcher."
+ },
+ "0002.wav": {
+  "ini": 0.0,
+  "fin": 1.08,
+  "texto": "Lo conectas una vez."
+ },
+ "0003.wav": {
+  "ini": 0.0,
+  "fin": 1.6,
+  "texto": "y le hablas como a una persona."
+ },
+ "0004.wav": {
+  "ini": 0.0,
+  "fin": 4.26,
+  "texto": "Pídele un espacio para estudiar con tus apuntes, el navegador y la terminal."
+ },
+ "0005.wav": {
+  "ini": 0.0,
+  "fin": 2.1,
+  "texto": "y él lo prepara, cada cosa en su sitio."
+ },
+ "0006.wav": {
+  "ini": 0.0,
+  "fin": 2.22,
+  "texto": "Pídele un atajo de teclado para lanzarlo."
+ },
+ "0007.wav": {
+  "ini": 0.0,
+  "fin": 1.66,
+  "texto": "o que ajuste la aplicación a tu manera."
+ },
+ "0008.wav": {
+  "ini": 0.0,
+  "fin": 2.12,
+  "texto": "El propone, tú revisas y decides."
+ },
+ "0009.wav": {
+  "ini": 0.0,
+  "fin": 2.6,
+  "texto": "tu agente conectado a tu forma de trabajar."
+ },
+ "0010.wav": {
+  "ini": 0.0,
+  "fin": 1.16,
+  "texto": "que le pedirías primero."
+ }
+}

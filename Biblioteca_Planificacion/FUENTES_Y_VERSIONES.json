@@ -1,0 +1,204 @@
+{
+  "generated_on": "2026-10-20",
+  "community_modules": 8,
+  "active_local_skill": "video-planificacion-retencion",
+  "purpose": "Planificación editorial; originales de comunidad como referencias consultadas por la skill local.",
+  "repositories": [
+    {
+      "Repo": "yaxeen/storytelling-skills",
+      "Commit": "24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f",
+      "License": "MIT"
+    },
+    {
+      "Repo": "cdeistopened/skill-stack",
+      "Commit": "d607d66198b250b12c8e05c6d265ddb73d871aa5",
+      "License": "MIT"
+    },
+    {
+      "Repo": "sergebulaev/tiktok-skills",
+      "Commit": "e050b345a7b3ec417bf5c5b34d4161806b5d07f4",
+      "License": "MIT"
+    }
+  ],
+  "upstream_files": [
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/cdeistopened/LICENSE",
+      "sha256": "5e917f4fdd31eeea36e92038ccc91fe345504cffd8dfd4aed587a37a3aa9ef78"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/cdeistopened/skills/youtube-scriptwriting/assets/script-template.md",
+      "sha256": "913c998e01bccf6e5c55dd3a28e24a53e89209ba8426a505358440b0d6a6472b"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/cdeistopened/skills/youtube-scriptwriting/references/editing.md",
+      "sha256": "339d57573200ab1e52da25be2d2d270794495856a4461277f8f1701a8299a953"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/cdeistopened/skills/youtube-scriptwriting/references/hooks.md",
+      "sha256": "9d67208407fe85f3bab0428abba75d09b12af2744ad9711a51f19108638f73fa"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/cdeistopened/skills/youtube-scriptwriting/references/research.md",
+      "sha256": "b8156622cec0f34aac20cdd2d82094caf9a2084f8919e117756c2e76bce7478f"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/cdeistopened/skills/youtube-scriptwriting/references/retention.md",
+      "sha256": "ea9d5eef580f1fce69bb27167c00a07000d17167b6421a089cc77367eb499bff"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/cdeistopened/skills/youtube-scriptwriting/references/structures.md",
+      "sha256": "092c776fb70ae646657a9392facda3af257c186b13170fcbc36a8d5ea4047195"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/cdeistopened/skills/youtube-scriptwriting/SKILL.md",
+      "sha256": "22d437e3f66de53602da6677989d55c9ac95c4ce7d1794e904ac3c0d8988005d"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/LICENSE",
+      "sha256": "1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/references/algorithm-heuristics.md",
+      "sha256": "2c10573161f8c34072caa570511c572303bbfa096d167c3cb4ddca612f227b37"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/references/hook-formulas.md",
+      "sha256": "9b2e7a08aeb2e8644a97641e69c19ff3d5718775ff0daf712fb8083daca98cc8"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/references/mcp-read-layer.md",
+      "sha256": "b4cbc992f00086ec9411d17df04406e94eec5d743a638fb889467bf05517e4e5"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/references/untrusted-content.md",
+      "sha256": "0a2042b074af12d3d937b86c5bb7c514220e8c6b3a2ced414d82995952fb27c5"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/references/voice-profile.md",
+      "sha256": "c05bd5e06685b4c0dee85d27556ea914811582d3e6b1c207b62b7d1e47340aa8"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/references/voice-rules.md",
+      "sha256": "f4bff053f03bb2b10cba47bad1eea2c51709cbd080f3dc7c52525ad96978b8f4"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/SKILL.md",
+      "sha256": "d7550cb969797126d20a49b06f13e39ad22c72f1417468562f303a09f635d9a7"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/skills/tt-content-planner/references/example-week.md",
+      "sha256": "cc8095d2d1826b8a4b9f8a55bf3c83bb2efdca55b0ee83d13eefe902e44637b1"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/skills/tt-content-planner/references/pillars-framework.md",
+      "sha256": "f93517a24120c36f12d0c1740139d925468f7e4c6ee900ecc339714bdfe8f1b3"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/skills/tt-content-planner/SKILL.md",
+      "sha256": "4faba2ca6dcd985abc83af1381871fdabc6b74134cd1bb2ccf7dd639e18ff6aa"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/skills/tt-hook-scripter/references/hook-anatomy.md",
+      "sha256": "6f7bf7e138e592436ab31ca0b245159e87e06a0d162af3aca4eff93fcfecf54f"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/tiktok-skills/skills/tt-hook-scripter/SKILL.md",
+      "sha256": "e8af8f6f6a0a4e177c8d49acc83c7de1de04e131fc383530f018649669f37ba6"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/LICENSE",
+      "sha256": "642d687551c97106ee19d18d2e6403ddf8e03a95d99e946c8ecd7ced73fd582f"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/skills/channel-formula/SKILL.md",
+      "sha256": "09481f40157f79505d8fcd19ed7d3b56f727eb1af4623ee05f1b38151bb88bd3"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/skills/long-form-youtube/patterns.md",
+      "sha256": "7b43a96ab4be7258023bf549350a5b1b7d10565a8afbabf473f50929cd165611"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/skills/long-form-youtube/SKILL.md",
+      "sha256": "7263c517a545da3fea093b55b2bab3569ff214b5afe0ed0d4166a019f4fc6a8f"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/skills/retention-audit/SKILL.md",
+      "sha256": "a1daf05109fdd1cb905682439e062cf525d48af774d4e5a98cb6d83ff6d004f9"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/skills/storytelling-hooks/patterns.md",
+      "sha256": "c62489b929e7382cccdf464b62e7889b55a4e6a064b1d926a519005e18f4c86f"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/skills/storytelling-hooks/SKILL.md",
+      "sha256": "5a2fae7641373f485a92e69638846aeb1c567dd83f14af9f17a5deb45829a264"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/skills/titles-and-thumbnails/patterns.md",
+      "sha256": "06fd20056dd9a46beac4416194fb6bccb483a6ed5c31bf1e2b594456dc453e5d"
+    },
+    {
+      "path": "Biblioteca_Planificacion/Fuentes_Comunidad/yaxeen/skills/titles-and-thumbnails/SKILL.md",
+      "sha256": "f7257e4af55e8a22fb1efb553f444d4bb1209931f0f757c49e212a91cc4a1eae"
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "YT-R",
+      "url": "https://support.google.com/youtube/answer/9314415?hl=en",
+      "type": "plataforma"
+    },
+    {
+      "id": "YT-M",
+      "url": "https://support.google.com/youtube/answer/12220281?hl=en",
+      "type": "plataforma"
+    },
+    {
+      "id": "YT-S1",
+      "url": "https://support.google.com/youtube/answer/16559650?hl=en",
+      "type": "plataforma"
+    },
+    {
+      "id": "YT-S2",
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dvideo&hl=en",
+      "type": "plataforma"
+    },
+    {
+      "id": "TT-P",
+      "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+      "type": "plataforma",
+      "access": "Texto visible en búsqueda; apertura directa no disponible"
+    },
+    {
+      "id": "TT-P-historica",
+      "url": "https://newsroom.tiktok.com/how-tiktok-recommends-videos-for-you?lang=en",
+      "type": "plataforma",
+      "year": 2020
+    },
+    {
+      "id": "TT-A",
+      "url": "https://ads.tiktok.com/business/en/creative-codes",
+      "type": "plataforma-publicidad"
+    },
+    {
+      "id": "IG-M",
+      "url": "https://about.fb.com/news/2023/04/instagram-reels-trending-audio-and-gifts-updates/",
+      "type": "plataforma",
+      "year": 2023
+    },
+    {
+      "id": "EST-1",
+      "url": "https://pure.kaist.ac.kr/en/publications/how-video-production-affects-student-engagement-an-empirical-stud/",
+      "type": "investigacion",
+      "year": 2014,
+      "access": "Resumen y registro institucional"
+    },
+    {
+      "id": "EST-2",
+      "url": "https://arxiv.org/abs/2111.02452",
+      "type": "investigacion",
+      "year": 2021,
+      "access": "Página del trabajo y resumen"
+    }
+  ]
+}

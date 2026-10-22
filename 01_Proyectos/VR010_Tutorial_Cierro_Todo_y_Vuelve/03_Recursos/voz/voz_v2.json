@@ -1,0 +1,61 @@
+{
+ "total": 38.76,
+ "pieces": [
+  {
+   "id": "p1",
+   "start": 0.1,
+   "end": 5.65,
+   "clip": "T01_Introduccion_ES/Introduccion_ES_01.wav",
+   "ss": 0.0,
+   "to": 5.55
+  },
+  {
+   "id": "p2",
+   "start": 5.95,
+   "end": 13.05,
+   "clip": "T01_Introduccion_ES/Introduccion_ES_02.wav",
+   "ss": 0.0,
+   "to": 7.1
+  },
+  {
+   "id": "p3",
+   "start": 13.35,
+   "end": 17.73,
+   "clip": "T01_Introduccion_ES/Introduccion_ES_03.wav",
+   "ss": 0.0,
+   "to": 4.38
+  },
+  {
+   "id": "p4",
+   "start": 18.18,
+   "end": 25.28,
+   "clip": "T01_Creacion_ES/Creacion_ES_17.wav",
+   "ss": 0.0,
+   "to": 7.1
+  },
+  {
+   "id": "p5",
+   "start": 25.58,
+   "end": 27.21,
+   "clip": "T01_Creacion_ES/Creacion_ES_18.wav",
+   "ss": 0.0,
+   "to": 1.63
+  },
+  {
+   "id": "p6",
+   "start": 29.81,
+   "end": 33.37,
+   "clip": "T01_Creacion_ES/Creacion_ES_19.wav",
+   "ss": 0.0,
+   "to": 3.56
+  },
+  {
+   "id": "p7",
+   "start": 33.77,
+   "end": 37.76,
+   "clip": "T01_Creacion_ES/Creacion_ES_19.wav",
+   "ss": 3.88,
+   "to": 7.87
+  }
+ ]
+}

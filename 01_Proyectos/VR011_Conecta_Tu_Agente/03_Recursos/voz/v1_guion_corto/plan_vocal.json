@@ -1,0 +1,13 @@
+{
+  "nombre": "VR011 Conecta tu agente a Workspace Launcher",
+  "personajes": { "Narrador": { "voz": "tutorial_el" } },
+  "tomas": [
+    { "id": "v1", "personaje": "Narrador", "texto": "¿Y si tu agente también pudiera actuar en Workspace Launcher?", "emocion": "asombro", "intencion": "Plantear la posibilidad con curiosidad contenida, sin hype.", "intensidad": 0.3, "ritmo": 1.05, "pausa_ms": 250 },
+    { "id": "v2", "personaje": "Narrador", "texto": "Conecta el que ya usas.", "emocion": "calma", "intencion": "Invitación sencilla y cercana.", "intensidad": 0.3, "ritmo": 1.05, "pausa_ms": 250 },
+    { "id": "v3", "personaje": "Narrador", "texto": "Cuéntale qué quieres preparar.", "emocion": "calma", "intencion": "Dar el protagonismo a la intención de la persona.", "intensidad": 0.3, "ritmo": 1.05, "pausa_ms": 250 },
+    { "id": "v4", "personaje": "Narrador", "texto": "Puede crear tus workspaces y ayudarte a configurar la aplicación.", "emocion": "neutral", "intencion": "Explicar con claridad dos ejemplos de acción.", "intensidad": 0.3, "ritmo": 1.05, "pausa_ms": 250 },
+    { "id": "v5", "personaje": "Narrador", "texto": "Le pides lo que necesitas. Revisas la propuesta y decides.", "emocion": "serio", "intencion": "Tranquilizar: el control sigue siendo de la persona.", "intensidad": 0.3, "ritmo": 1.05, "pausa_ms": 250 },
+    { "id": "v6", "personaje": "Narrador", "texto": "Tu agente, conectado a tu forma de trabajar.", "emocion": "calma", "intencion": "Beneficio resumido, sonrisa leve.", "intensidad": 0.3, "ritmo": 1.0, "pausa_ms": 300 },
+    { "id": "v7", "personaje": "Narrador", "texto": "¿Qué le pedirías primero?", "emocion": "alegria", "intencion": "Pregunta abierta que invita a imaginar un caso propio.", "intensidad": 0.25, "ritmo": 1.0, "pausa_ms": 0 }
+  ]
+}

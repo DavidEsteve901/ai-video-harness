@@ -1,0 +1,30 @@
+{
+ "mezcla": "G:\\Mi unidad\\00_SecondBrain\\10_Projects\\Workspace_Launcher\\05_Marketing\\Videos\\Videos_Rapidos\\01_Proyectos\\VR008_Lapida_Cafe_Frio\\03_Recursos\\voz\\retoque_s3.wav",
+ "duracion": 5.04,
+ "tomas": [
+  {
+   "n": 1,
+   "voz": "doc_naturaleza",
+   "texto": "Si nada cambia.",
+   "archivo": "G:\\Mi unidad\\00_SecondBrain\\10_Projects\\Workspace_Launcher\\05_Marketing\\Videos\\Videos_Rapidos\\01_Proyectos\\VR008_Lapida_Cafe_Frio\\03_Recursos\\voz\\retoque_s3_tomas\\0001.wav",
+   "inicio": 0.0,
+   "duracion": 0.862
+  },
+  {
+   "n": 2,
+   "voz": "doc_naturaleza",
+   "texto": "Lunes. Nueve en punto. Café caliente.",
+   "archivo": "G:\\Mi unidad\\00_SecondBrain\\10_Projects\\Workspace_Launcher\\05_Marketing\\Videos\\Videos_Rapidos\\01_Proyectos\\VR008_Lapida_Cafe_Frio\\03_Recursos\\voz\\retoque_s3_tomas\\0002.wav",
+   "inicio": 1.112,
+   "duracion": 3.677
+  }
+ ],
+ "parametros": {
+  "seed": 3,
+  "velocidad": 1.0,
+  "acelerar": 1.05,
+  "fx": null,
+  "lang": "es",
+  "job": "5d6cb7c7acc54e1f8815c78ae4bc3147"
+ }
+}

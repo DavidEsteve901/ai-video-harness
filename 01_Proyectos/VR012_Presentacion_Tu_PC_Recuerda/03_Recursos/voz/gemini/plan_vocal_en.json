@@ -1,0 +1,17 @@
+{
+  "voz": "en-us-training-6",
+  "modelo": "gemini-3.8-flash-lite-tts",
+  "tomas": [
+    {"id": "t01", "texto": "Your computer has amnesia.", "estilo": "intriguing and self-assured, like revealing a secret"},
+    {"id": "t02", "texto": "Every time you turn it on, it forgets how you work.", "estilo": "close and friendly, with a knowing half smile"},
+    {"id": "t03", "texto": "Which programs you were using. Which tabs you had open. Where every window went. And on which screen.", "estilo": "listing with rhythm, slightly ironic"},
+    {"id": "t04", "texto": "And it's on you to rebuild it. Window by window. Every single day.", "estilo": "sympathetic, with a touch of weariness"},
+    {"id": "t05", "texto": "What if your desktop had a memory?", "estilo": "excited, slowing down, posing a big idea"},
+    {"id": "t06", "texto": "You set it up once, your way: your apps, your tabs, your projects. Everything in its place.", "estilo": "confident and enthusiastic"},
+    {"id": "t07", "texto": "And from then on, one click... and it all comes back. Exactly the way you saved it.", "estilo": "satisfied, with a suspenseful pause before and it all comes back"},
+    {"id": "t08", "texto": "A space for coding. Another for studying. Another for creating. And you jump between them without losing the thread.", "estilo": "brisk and lively, with rhythm"},
+    {"id": "t09", "texto": "Windows snap into their zones on their own. And if you feel like it, just ask with your voice.", "estilo": "light and friendly"},
+    {"id": "t10", "texto": "Because your time is for working, not for arranging windows.", "estilo": "convinced and warm"},
+    {"id": "t11", "texto": "Now, at last: your computer remembers how you work.", "estilo": "warm and unhurried, closing with a smile"}
+  ]
+}

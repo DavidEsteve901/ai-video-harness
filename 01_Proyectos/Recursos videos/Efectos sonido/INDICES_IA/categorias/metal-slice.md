@@ -1,0 +1,77 @@
+# Cortes e impactos metálicos
+
+[Volver al índice](../00_LEEME.md) · [Buscador rápido](../01_BUSCADOR_RAPIDO.md)
+
+Cortes metálicos numerados y un impacto metálico.
+
+**Carpeta original:** `PACK SONIDOS 2025 (manuDT)/METAL SLICE/` · **Recursos:** 63.
+
+**Sinónimos de búsqueda:** metal metalico corte espada cuchilla metal slice sword impact.
+
+Descripciones inferidas del nombre y de la carpeta original; no proceden de escucha individual. Duraciones, formato, frecuencia y canales leídos del archivo. Las variantes numeradas no se presentan como sonidos distintos cuando el nombre no permite describir esa diferencia.
+
+| ID | Archivo original / enlace | Duración | Descripción | Palabras clave | Copia idéntica |
+| --- | --- | ---: | --- | --- | --- |
+| SFX-0584 | [Metal impact sound effect ( By Ashish Editz ) .wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal%20impact%20sound%20effect%20%28%20By%20Ashish%20Editz%20%29%20.wav) | 7,75 s | Impacto de sonido metálico. | metal-slice, metal, metalico, impacto, golpe | Preferida; SFX-0043, SFX-0743 |
+| SFX-0585 | [Metal.Slice.1.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.1.wav) | 10,05 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0586 | [Metal.Slice.2.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.2.wav) | 10,05 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0587 | [Metal.Slice.3.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.3.wav) | 7,05 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0588 | [Metal.Slice.4.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.4.wav) | 7,05 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0589 | [Metal.Slice.5.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.5.wav) | 7,59 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0590 | [Metal.Slice.6.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.6.wav) | 7,59 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0591 | [Metal.Slice.7.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.7.wav) | 9,97 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0592 | [Metal.Slice.8.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.8.wav) | 9,97 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0593 | [Metal.Slice.9.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.9.wav) | 7,92 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0594 | [Metal.Slice.10.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.10.wav) | 7,92 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0595 | [Metal.Slice.11.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.11.wav) | 7,13 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0596 | [Metal.Slice.12.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.12.wav) | 7,13 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0597 | [Metal.Slice.13.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.13.wav) | 8,43 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0598 | [Metal.Slice.14.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.14.wav) | 8,43 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0599 | [Metal.Slice.15.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.15.wav) | 7,59 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0600 | [Metal.Slice.16.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.16.wav) | 7,59 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0601 | [Metal.Slice.17.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.17.wav) | 10,34 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0602 | [Metal.Slice.18.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.18.wav) | 10,34 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0603 | [Metal.Slice.19.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.19.wav) | 6,30 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0604 | [Metal.Slice.20.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.20.wav) | 6,30 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0605 | [Metal.Slice.21.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.21.wav) | 7,76 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0606 | [Metal.Slice.22.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.22.wav) | 7,76 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0607 | [Metal.Slice.23.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.23.wav) | 8,09 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0608 | [Metal.Slice.24.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.24.wav) | 8,09 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0609 | [Metal.Slice.25.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.25.wav) | 6,88 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0610 | [Metal.Slice.26.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.26.wav) | 6,88 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0611 | [Metal.Slice.27.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.27.wav) | 10,18 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0612 | [Metal.Slice.28.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.28.wav) | 10,18 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0613 | [Metal.Slice.29.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.29.wav) | 7,88 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0614 | [Metal.Slice.30.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.30.wav) | 7,88 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0615 | [Metal.Slice.31.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.31.wav) | 9,55 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0616 | [Metal.Slice.32.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.32.wav) | 9,55 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0617 | [Metal.Slice.33.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.33.wav) | 7,26 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0618 | [Metal.Slice.34.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.34.wav) | 7,26 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0619 | [Metal.Slice.35.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.35.wav) | 9,26 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0620 | [Metal.Slice.36.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.36.wav) | 9,26 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0621 | [Metal.Slice.37.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.37.wav) | 9,22 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0622 | [Metal.Slice.38.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.38.wav) | 9,22 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0623 | [Metal.Slice.39.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.39.wav) | 9,51 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0624 | [Metal.Slice.40.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.40.wav) | 9,51 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0625 | [Metal.Slice.41.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.41.wav) | 7,01 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0626 | [Metal.Slice.42.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.42.wav) | 7,01 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0627 | [Metal.Slice.43.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.43.wav) | 6,38 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0628 | [Metal.Slice.44.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.44.wav) | 6,38 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0629 | [Metal.Slice.45.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.45.wav) | 7,63 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0630 | [Metal.Slice.46.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.46.wav) | 7,63 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0631 | [Metal.Slice.47.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.47.wav) | 9,68 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0632 | [Metal.Slice.48.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.48.wav) | 9,68 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0633 | [Metal.Slice.49.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.49.wav) | 10,18 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0634 | [Metal.Slice.50.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.50.wav) | 10,18 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0635 | [Metal.Slice.51.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.51.wav) | 8,80 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0636 | [Metal.Slice.52.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.52.wav) | 8,80 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0637 | [Metal.Slice.53.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.53.wav) | 8,84 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0638 | [Metal.Slice.54.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.54.wav) | 8,84 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0639 | [Metal.Slice.55.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.55.wav) | 8,51 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0640 | [Metal.Slice.56.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.56.wav) | 8,51 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0641 | [Metal.Slice.57.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.57.wav) | 8,26 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0642 | [Metal.Slice.58.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.58.wav) | 8,26 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0643 | [Metal.Slice.59.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.59.wav) | 6,63 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0644 | [Metal.Slice.60.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.60.wav) | 6,63 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0645 | [Metal.Slice.61.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.61.wav) | 9,01 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |
+| SFX-0646 | [Metal.Slice.62.wav](../../PACK%20SONIDOS%202025%20%28manuDT%29/METAL%20SLICE/Metal.Slice.62.wav) | 9,01 s | Corte o barrido de metal o espada. | metal-slice, metal, metalico, corte, espada, barrido, slice, sword | — |

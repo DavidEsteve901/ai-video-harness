@@ -1,0 +1,47 @@
+{
+  "_comentario": "Toda la edición sale de aquí. Tiempos en segundos. Tras cambiar 'junior'/'senior' ejecuta: node scripts/preparar_cortes.mjs",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration": 12.5,
+  "dropTime": 7.0,
+  "clickTime": 6.85,
+  "music": {
+    "file": "audio/scopin.mp3",
+    "dropInSong": 22.06,
+    "_dropNota": "El drop real de la pista está en 21,98 s; +0,08 compensa el retardo del decodificador MP3 en Remotion para que suene a la vez que el flash",
+    "fadeIn": 0.1,
+    "fadeOut": 0.55,
+    "volume": 1
+  },
+  "pulse": {
+    "beatFirst": 7.75,
+    "beatPeriod": 0.6133,
+    "beatAmp": 0.6,
+    "nota": "Latido del borde del PRO tras el drop. La canción marca golpes cada 0,613 s (~98 BPM) desde el segundo 22,73 de la pista; beatFirst es ese golpe en tiempo de vídeo (22,73 - 14,98)."
+  },
+  "suave": {
+    "amp": 0.55,
+    "tau": 0.5,
+    "atk": 0.06,
+    "nota": "Versión suave: una sola respuesta del borde del PRO en el drop (amp = fuerza, atk = tiempo de subida, tau = tiempo de caída) + ondita sobre el botón en el clic"
+  },
+  "junior": {
+    "src": "Video Junior.mp4",
+    "start": 2.0,
+    "speed": 3.0
+  },
+  "senior": {
+    "src": "Video Senior.mp4",
+    "clickInSource": 15.13,
+    "doneInSource": 17.9,
+    "segments": [
+      { "start": 8.28, "end": 15.28, "speed": 1, "nota": "escritorio quieto ~4,9 s, aparece el lanzador (13,1 s en el bruto) y el cursor llega a Lanzar; clic en 15,13 s" },
+      { "start": 16.3, "end": 17.95, "speed": 2, "nota": "salto de corte justo en el drop (se omite 1,1 s muerto tras el clic); ventanas colocándose x2" },
+      { "start": 17.95, "end": 22.625, "speed": 1, "nota": "todo colocado, escritorio listo" }
+    ]
+  },
+  "launchButton": { "x": 1488, "y": 226, "nota": "posición del botón Lanzar en el bruto del senior, a 1920x1080" },
+  "senior_zoom": { "pre": 1.5, "focusX": 1000, "focusY": 480, "pushStart": 5.95, "pushEnd": 6.45, "nota": "El lanzador aparece a los 4,89 s y se ve entero sin zoom hasta pushStart; luego un empuje suave (sigue viéndose la ventana completa y el botón), se mantiene en el clic y sale rápido en el drop" }
+}
+

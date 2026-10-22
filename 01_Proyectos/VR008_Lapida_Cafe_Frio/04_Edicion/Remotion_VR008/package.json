@@ -1,0 +1,22 @@
+{
+  "name": "vr008-lapida-cafe-frio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VR008 - La lapida de Lucas (animacion con historia) - Remotion 1080x1920 60fps",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts VR008 out/VR008_Lapida_1080x1920_60fps.mp4 --crf=16 --pixel-format=yuv420p"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/fonts": "4.0.448",
+    "@remotion/media": "4.0.448",
+    "remotion": "4.0.448",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

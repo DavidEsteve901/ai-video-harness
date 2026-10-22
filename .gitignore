@@ -1,0 +1,37 @@
+# Configuración con rutas de TU equipo
+conexion_recursos/recursos.config.local.json
+.env
+.env.*
+*.key
+api-token
+
+# Dependencias y salidas
+node_modules/
+__pycache__/
+*.pyc
+out/
+.cache/
+
+# Medios pesados: viven en las bibliotecas conectadas, no en git
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.flac
+*.rar
+*.zip
+*.7z
+*.kdenlive
+*.prproj
+*.psd
+*.aep
+01_Proyectos/**/02_Brutos/
+01_Proyectos/**/05_Exportaciones/
+01_Proyectos/**/out/
+
+# Registros de uso de APIs
+*.jsonl
+*.log
+*.err

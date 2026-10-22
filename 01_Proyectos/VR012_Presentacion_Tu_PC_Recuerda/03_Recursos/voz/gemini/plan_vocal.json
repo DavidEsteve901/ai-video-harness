@@ -1,0 +1,17 @@
+{
+  "voz": "es-es-training-9",
+  "modelo": "gemini-3.8-flash-tts",
+  "tomas": [
+    {"id": "t01", "texto": "Tu ordenador tiene amnesia.", "estilo": "intrigante y con aplomo, como quien revela un secreto"},
+    {"id": "t02", "texto": "Cada vez que lo enciendes, se le olvida cómo trabajas.", "estilo": "cercano, con una media sonrisa cómplice"},
+    {"id": "t03", "texto": "Qué programas usabas. Qué pestañas tenías abiertas. Dónde iba cada ventana. Y en qué pantalla.", "estilo": "enumerando con ritmo, ligeramente irónico"},
+    {"id": "t04", "texto": "Y te toca a ti reconstruirlo. Ventana a ventana. Todos los días.", "estilo": "cómplice, con un punto de cansancio"},
+    {"id": "t05", "texto": "¿Y si tu escritorio tuviera memoria?", "estilo": "ilusionado, bajando el ritmo, planteando una gran idea"},
+    {"id": "t06", "texto": "Lo montas una vez, a tu manera: tus apps, tus pestañas, tus proyectos. Cada uno en su sitio.", "estilo": "seguro y entusiasta"},
+    {"id": "t07", "texto": "Y a partir de ahí, un clic... y vuelve todo. Tal y como lo guardaste.", "estilo": "satisfecho, con una pausa de suspense antes de y vuelve todo"},
+    {"id": "t08", "texto": "Un espacio para programar. Otro para estudiar. Otro para crear. Y saltas de uno a otro sin perder el hilo.", "estilo": "ágil y animado, con ritmo"},
+    {"id": "t09", "texto": "Las ventanas encajan solas en su zona. Y si te apetece, se lo pides con la voz.", "estilo": "ligero y simpático"},
+    {"id": "t10", "texto": "Porque tu tiempo es para trabajar, no para colocar ventanas.", "estilo": "convencido y cálido"},
+    {"id": "t11", "texto": "Ahora sí: tu ordenador recuerda cómo trabajas.", "estilo": "cálido y pausado, cerrando con una sonrisa"}
+  ]
+}
